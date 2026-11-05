@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Microflix</title>
+<link rel="icon" href="icone.svg" type="image/svg+xml">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header class="topo">
+  <a class="logo" href="#" data-ir="inicio" aria-label="Microflix, início">MICROFLIX</a>
+  <nav class="menu" aria-label="Seções">
+    <button type="button" data-ir="inicio" class="ativo">Início</button>
+    <button type="button" data-ir="canais">Canais</button>
+    <button type="button" data-ir="lista">Minha lista</button>
+    <button type="button" data-ir="assistidos">Já assisti</button>
+  </nav>
+  <label class="busca"><span class="sr">Buscar no Microflix</span><input id="busca" type="search" placeholder="Buscar" autocomplete="off" spellcheck="false"></label>
+</header>
+<main id="conteudo"><p class="carregando-geral">Abrindo o Microflix…</p></main>
+<div id="detalhe" class="detalhe" hidden></div>
+<div id="player" class="player" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>

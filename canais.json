@@ -1,0 +1,313 @@
+{
+ "atualizadoEm": "2026-11-05",
+ "canais": {
+  "UCdEDU8wVrCVgIXfyuCXBgmA": [
+   {
+    "id": "7ivkWyQHXsA",
+    "titulo": "Ciência na Sociedade - Universo Acessível",
+    "publicado": "2026-10-24"
+   },
+   {
+    "id": "FJUv4PymHuY",
+    "titulo": "HIPERNOVA E114 - NASA descobre cratera gigante na Lua escondida por mais de 1 ano",
+    "publicado": "2026-10-23"
+   },
+   {
+    "id": "-MgxKplIkXM",
+    "titulo": "HIPERNOVA E113 - Uma singular nuvem de Marte revela mais um de seus mistérios",
+    "publicado": "2026-10-16"
+   },
+   {
+    "id": "jqj2AA8rlXk",
+    "titulo": "HIPERNOVA E112 - Little Red Dots  uma possível explicação via simulações hidrodinâmicas sofisticadas",
+    "publicado": "2026-10-02"
+   },
+   {
+    "id": "8KiJ3SkrL3Y",
+    "titulo": "HIPERNOVA E111 - Cientistas detectam novo padrão na atmosfera de Saturno",
+    "publicado": "2026-09-18"
+   },
+   {
+    "id": "ToqLYoRIvq4",
+    "titulo": "Ciência na Sociedade - Pesquisa Astronômica Brasileira e o Espectrógrafo MOSAIC",
+    "publicado": "2026-08-31"
+   },
+   {
+    "id": "z6C33u2Ul5M",
+    "titulo": "HIPERNOVA E110 - Pode ter água escondida debaixo da superfície da lua, e vamos escavá-la!",
+    "publicado": "2026-07-17"
+   },
+   {
+    "id": "PjYOS8CagZ4",
+    "titulo": "HIPERNOVA E109 - Euclid descobre alguns dos quasares mais antigos do Universo",
+    "publicado": "2026-07-10"
+   },
+   {
+    "id": "__C_nzbS_Ok",
+    "titulo": "HIPERNOVA E108 - A influência de Marte sobre as eras do gelo terrestres",
+    "publicado": "2026-07-03"
+   },
+   {
+    "id": "4Xn9XuahLck",
+    "titulo": "HIPERNOVA E107 - Como a Esa “ressuscitou” uma de suas missões mais inovadoras",
+    "publicado": "2026-06-23"
+   },
+   {
+    "id": "KBoXYm5Afd0",
+    "titulo": "HIPERNOVA E106 - Abelhas, matemática e vida extraterrestre",
+    "publicado": "2026-06-12"
+   },
+   {
+    "id": "jV5kvIdp8N0",
+    "titulo": "HIPERNOVA E105 - Anãs Vermelhas jovens devoram seus planetas?",
+    "publicado": "2026-06-05"
+   },
+   {
+    "id": "RmJo75Hm5o4",
+    "titulo": "HIPERNOVA E104 - MAVEN detecta fenômeno atmosférico inédito em Marte",
+    "publicado": "2026-06-02"
+   },
+   {
+    "id": "DpyFsh5Ay2c",
+    "titulo": "HIPERNOVA E103 - Os desafios de uma vida no espaço",
+    "publicado": "2026-05-23"
+   },
+   {
+    "id": "pj1jGZ6UUJg",
+    "titulo": "HIPERNOVA E102 - NASA descobre que estrelas jovens enfraquecem em raios X surpreendentemente rápido",
+    "publicado": "2026-05-17"
+   }
+  ],
+  "UCAL3JXZSzSm8AlZyD3nQdBA": [
+   {
+    "id": "PXuV_YCt8g4",
+    "titulo": "Primitive Technology: 3 Iron Consolidation Experiments",
+    "publicado": "2026-10-01"
+   },
+   {
+    "id": "99j2NpomwLk",
+    "titulo": "Primitive Technology: Iron Prill Welding Experiment",
+    "publicado": "2026-09-03"
+   },
+   {
+    "id": "j4lS236jEjs",
+    "titulo": "Primitive Technology: Flat vs Curved Tiles, A Tough Lesson",
+    "publicado": "2026-08-06"
+   },
+   {
+    "id": "58LGFLT4lYg",
+    "titulo": "Primitive Technology: Firing Tiles and Building the Roof on the Mud Mortar/Fired Brick Hut",
+    "publicado": "2026-07-09"
+   },
+   {
+    "id": "LTu6xpoPvzg",
+    "titulo": "Primitive Technology: Building Walls with Fired Bricks and Mud Mortar",
+    "publicado": "2026-06-12"
+   },
+   {
+    "id": "jovm4R-HTaM",
+    "titulo": "Primitive Technology: Mud mortar experiment and firing roof tiles",
+    "publicado": "2026-05-08"
+   },
+   {
+    "id": "L-iwzJOG8fA",
+    "titulo": "Primitive Technology: Roof tiles dried by underfloor heating",
+    "publicado": "2026-04-09"
+   },
+   {
+    "id": "UkQfhwrlfJ4",
+    "titulo": "Primitive Technology: Hut with Underfloor Heating (Ondol/Hypocaust)",
+    "publicado": "2026-03-12"
+   },
+   {
+    "id": "XZz-UU4pK3s",
+    "titulo": "Primitive Technology: Portable pulley blower",
+    "publicado": "2026-02-05"
+   },
+   {
+    "id": "q6Y3cKMPtyU",
+    "titulo": "Primitive Technology: Convection turbine experiments (hot air windmill)",
+    "publicado": "2026-01-06"
+   },
+   {
+    "id": "eIBEK-_NMJc",
+    "titulo": "Primitive Technology: Grate furnace, wood fired smelting experiment",
+    "publicado": "2025-12-04"
+   },
+   {
+    "id": "UqJHfTkvVY4",
+    "titulo": "Primitive Technology: Wood ash & crushed terracotta mortar",
+    "publicado": "2025-11-06"
+   },
+   {
+    "id": "y8o7qkmiDso",
+    "titulo": "Primitive Technology: Double water bellows",
+    "publicado": "2025-10-02"
+   },
+   {
+    "id": "XD4jvdjAMA8",
+    "titulo": "Primitive Technology: 2.5 m Natural draft furnace experiment",
+    "publicado": "2025-09-04"
+   },
+   {
+    "id": "ebgrsldLIvI",
+    "titulo": "Primitive Technology: Grass mat loom",
+    "publicado": "2025-07-31"
+   }
+  ],
+  "UCB0zinWfy-dS_NqcOINYo3A": [
+   {
+    "id": "h04S3FnVvGs",
+    "titulo": "O que as tartarugas-verdes têm que outras espécies não têm?",
+    "publicado": "2026-10-28"
+   },
+   {
+    "id": "gZO7ecbXvHI",
+    "titulo": "Por que os mosquitos picam MAIS algumas pessoas?",
+    "publicado": "2026-10-15"
+   },
+   {
+    "id": "nZgnT6vvgJw",
+    "titulo": "Quão alto uma ave consegue voar?",
+    "publicado": "2026-10-08"
+   },
+   {
+    "id": "UcXJBJYupoY",
+    "titulo": "O que torna uma doença realmente perigosa? COMPILADO",
+    "publicado": "2026-09-23"
+   },
+   {
+    "id": "pI12kpSQklk",
+    "titulo": "A Ciência por Trás dos Desastres Naturais (Maratona Forças Implacáveis)",
+    "publicado": "2026-09-16"
+   },
+   {
+    "id": "kT1hB6L4-6Y",
+    "titulo": "Qual é o menor número de pessoas capaz de repovoar a Terra?",
+    "publicado": "2026-09-09"
+   },
+   {
+    "id": "YlRhC6hFfds",
+    "titulo": "As 3 maneiras de ACABAR com um vulcão",
+    "publicado": "2026-08-24"
+   },
+   {
+    "id": "a5v4tSNiTJY",
+    "titulo": "O que torna a raiva tão mortal?",
+    "publicado": "2026-08-10"
+   },
+   {
+    "id": "qjoC0IYMS-A",
+    "titulo": "Os Vídeos MENOS vistos do canal! Maratona Minuto da Terra",
+    "publicado": "2026-07-24"
+   },
+   {
+    "id": "PWDHVQhPyHE",
+    "titulo": "Por que os animais gigantes comem coisas tão pequenas?",
+    "publicado": "2026-07-15"
+   },
+   {
+    "id": "8zcRcaF5dwQ",
+    "titulo": "A Ciência por Trás de Alguns Países da Copa do Mundo",
+    "publicado": "2026-06-29"
+   },
+   {
+    "id": "HiL3YsWl6sI",
+    "titulo": "Por que os macacos nunca foram domesticados?",
+    "publicado": "2026-06-26"
+   },
+   {
+    "id": "BNj0dfeBUFc",
+    "titulo": "O Melhor de Maio Parte 2 (Compilado de Ciência em Desenho Animado)",
+    "publicado": "2026-06-07"
+   },
+   {
+    "id": "oJva0sW5esc",
+    "titulo": "Por que paramos de encontrar antibióticos?",
+    "publicado": "2026-06-06"
+   },
+   {
+    "id": "mp3J31aAtiQ",
+    "titulo": "A verdadeira causa de todas as mortes",
+    "publicado": "2026-05-31"
+   }
+  ],
+  "UCTugjE76W-cSLohpbB_NRLA": [
+   {
+    "id": "KRa5DSmsstI",
+    "titulo": "Minecraft: Como construir uma casa moderna | Tutorial (Bedrock)",
+    "publicado": "2026-09-20"
+   },
+   {
+    "id": "Qi3VIUYRQUI",
+    "titulo": "Minecraft: Apresentação da casa moderna | MANYACRAFT",
+    "publicado": "2026-09-15"
+   },
+   {
+    "id": "9ZYIlV8cL0g",
+    "titulo": "Minecraft: Como construir uma casa de madeira para começo de survival | Tutorial (Bedrock)",
+    "publicado": "2026-09-13"
+   },
+   {
+    "id": "3FuAU7w2w60",
+    "titulo": "Minecraft: Como construir uma casa moderna | Tutorial (Bedrock)",
+    "publicado": "2026-09-10"
+   },
+   {
+    "id": "euFkkZG2uXE",
+    "titulo": "Minecraft: Como construir uma mansão moderna | MANYACRAFT",
+    "publicado": "2026-05-03"
+   },
+   {
+    "id": "1oVhQWqojV0",
+    "titulo": "Minecraft: Como construir uma casa moderna pequena | MANYACRAFT",
+    "publicado": "2026-04-19"
+   },
+   {
+    "id": "I0yBzGEe7nM",
+    "titulo": "Minecraft: Como construir uma casa moderna | MANYACRAFT ",
+    "publicado": "2026-02-11"
+   },
+   {
+    "id": "m-PJiVCNoPo",
+    "titulo": "Minecraft: How to Build a Modern House MANYACRAFT",
+    "publicado": "2026-01-29"
+   },
+   {
+    "id": "NmE0dkqS92c",
+    "titulo": "Minecraft: Como Construir uma MEGA MANSÃO MODERNA",
+    "publicado": "2025-12-14"
+   },
+   {
+    "id": "YbAGcY1ZAoU",
+    "titulo": "Minecraft: Como construir uma Mansão Moderna MANYACRAFT",
+    "publicado": "2025-12-12"
+   },
+   {
+    "id": "vLgQx6XQIAQ",
+    "titulo": "Minecraft - Como construir uma Casa Moderna 4 - Tutorial Manyacraft",
+    "publicado": "2025-12-07"
+   },
+   {
+    "id": "F-0zKcJaq6A",
+    "titulo": "Minecraft - Como construir uma Casa Moderna 3 - Manyacraft",
+    "publicado": "2025-11-29"
+   },
+   {
+    "id": "bamxRtrCwuw",
+    "titulo": "Minecraft Tutorial: MANSÃO ULTRA MODERNA Manyacraft",
+    "publicado": "2025-11-23"
+   },
+   {
+    "id": "EweaJ7HS164",
+    "titulo": "Minecraft Tutorial - Como fazer uma Casa Moderna Manyacraft",
+    "publicado": "2025-11-14"
+   },
+   {
+    "id": "K-4Z0gSBsK4",
+    "titulo": "Minecraft - Como construir uma Casa Moderna - MANYACRAFT",
+    "publicado": "2025-11-11"
+   }
+  ]
+ }
+}

@@ -1,0 +1,2009 @@
+{
+ "atualizadoEm": "2026-11-05",
+ "fileiras": [
+  "Espaço",
+  "Minecraft e Rocket League",
+  "Ciência e engenharia",
+  "Filmes e curtas",
+  "Para descobrir"
+ ],
+ "itens": [
+  {
+   "id": "estacao-espacial-4k",
+   "titulo": "A Estação Espacial por dentro, em 4K",
+   "tituloOriginal": "Space Station Fisheye Fly-Through 4K (Ultra HD)",
+   "tipo": "video",
+   "fileira": "Espaço",
+   "eixo": "educativo",
+   "idioma": "sem-fala",
+   "ano": 2016,
+   "duracaoMin": 18.1,
+   "classificacao": "L",
+   "motivoClassificacao": "Sugestão do Microflix: só imagens da estação, sem cena tensa.",
+   "descricao": "Uma câmera com lente olho de peixe flutua pela Estação Espacial Internacional durante 18 minutos. A filmagem em 4K foi feita pela empresa Harmonic para o canal de ultra-alta definição da NASA e foi publicada em outubro de 2016.",
+   "porQueAssistir": "Mostra por dentro os módulos onde os astronautas vivem e trabalham, a cerca de 400 km de altura.",
+   "ressalva": "A lente olho de peixe deixa as bordas da imagem curvas.",
+   "canal": "NASA",
+   "canalId": "UCLA_DiR1FfKNvjuUpBHmylQ",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial do canal da NASA; obra do governo dos EUA, em domínio público",
+   "urlPagina": "https://www.youtube.com/watch?v=DhmdyQdu96M",
+   "player": {
+    "tipo": "youtube",
+    "id": "DhmdyQdu96M"
+   }
+  },
+  {
+   "id": "audio-universe",
+   "titulo": "Audio Universe: Tour do Sistema Solar",
+   "tituloOriginal": "Audio Universe: Tour of the Solar System",
+   "tipo": "documentario",
+   "fileira": "Espaço",
+   "eixo": "educativo",
+   "idioma": "pt",
+   "ano": 2024,
+   "duracaoMin": 35.0,
+   "classificacao": "L",
+   "motivoClassificacao": "Sugestão do Microflix: show de planetário em português, sem cena de tensão.",
+   "descricao": "Show de planetário de 35 minutos em que o público viaja numa nave que transforma em som os objetos do espaço. A viagem começa no Very Large Telescope, do Observatório Europeu do Sul, e passa pela Terra, pela Lua, pelo Sol e por todos os planetas. A versão em português tem a voz dos astrônomos Yanna Martins, do Observatório do Valongo (UFRJ), e Ricardo Ogando, do Observatório Nacional.",
+   "porQueAssistir": "Cada astro ganha um som próprio, e o canal recomenda assistir com fones de ouvido.",
+   "ressalva": "Fica melhor com fone de ouvido.",
+   "canal": "Audio Universe",
+   "canalId": "UCAmThCYWuORVPasrV6Z1Kog",
+   "plataforma": "YouTube",
+   "licenca": "Creative Commons BY-ND 4.0 (dito na descrição); upload oficial do canal do projeto Audio Universe",
+   "urlPagina": "https://www.youtube.com/watch?v=zHzvVo28D78",
+   "player": {
+    "tipo": "youtube",
+    "id": "zHzvVo28D78"
+   }
+  },
+  {
+   "id": "conquista-da-lua",
+   "titulo": "A Conquista da Lua",
+   "tipo": "documentario",
+   "fileira": "Espaço",
+   "eixo": "educativo",
+   "idioma": "pt",
+   "ano": 2020,
+   "duracaoMin": 117.9,
+   "classificacao": "10",
+   "motivoClassificacao": "Sugestão do Microflix: conta acidentes reais, como o incêndio da Apollo 1 em 1967, que matou três astronautas, e a pane da Apollo 13, assunto que pode deixar qualquer um apreensivo.",
+   "descricao": "Documentário brasileiro de quase duas horas, produzido pelo canal Mensageiro Sideral. Vai do Sputnik, em 1957, à Apollo 17, em 1972, a última missão tripulada à Lua do século 20, passando por Laika, Gagarin, as cápsulas Gemini e as missões Apollo. O vídeo tem 17 capítulos marcados, e o da Apollo 11 dura cerca de 18 minutos.",
+   "porQueAssistir": "Conta em português a corrida espacial do começo ao fim, em capítulos de poucos minutos que dá para ver um por dia.",
+   "ressalva": "É longo, quase 2 horas, e tem capítulos marcados na barra do vídeo: dá para parar e continuar outro dia. Conta acidentes reais da corrida espacial.",
+   "canal": "Mensageiro Sideral",
+   "canalId": "UCoRwVRrzVq3qTw7GqOEfH6Q",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial do canal Mensageiro Sideral, que produziu o documentário",
+   "urlPagina": "https://www.youtube.com/watch?v=JNCL4gsxX4c",
+   "player": {
+    "tipo": "youtube",
+    "id": "JNCL4gsxX4c"
+   }
+  },
+  {
+   "id": "cuaracy-ceu-tupi-guarani",
+   "titulo": "Cuaracy Ra’Angaba: o céu Tupi Guarani",
+   "tipo": "documentario",
+   "fileira": "Espaço",
+   "eixo": "educativo",
+   "idioma": "pt",
+   "ano": 2011,
+   "duracaoMin": 28.0,
+   "classificacao": "L",
+   "motivoClassificacao": "Sugestão do Microflix: documentário sobre cultura e ciência, sem cena de violência.",
+   "descricao": "Documentário de 2011 sobre a astronomia dos índios Guarani e o jeito próprio desse povo de ler o céu e interpretar os fenômenos celestes. A direção é da documentarista Lara Velho, com co-direção do professor Germano Bruno Afonso, pioneiro na pesquisa da etnoastronomia brasileira.",
+   "porQueAssistir": "Mostra como outro povo do Brasil organizou o conhecimento sobre as estrelas muito antes dos telescópios.",
+   "ressalva": "A imagem é de TV antiga, com pouca definição.",
+   "canal": "Iphan",
+   "canalId": "UCzLB6j8WasmMqA5LLWsNBXA",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial do Iphan, órgão público federal que apoiou a produção pelo edital Etnodoc",
+   "urlPagina": "https://www.youtube.com/watch?v=obuRxNgAh6c",
+   "player": {
+    "tipo": "youtube",
+    "id": "obuRxNgAh6c"
+   }
+  },
+  {
+   "id": "astrolab-sistema-solar",
+   "titulo": "Astrolab: o Sistema Solar",
+   "tipo": "serie",
+   "fileira": "Espaço",
+   "eixo": "educativo",
+   "idioma": "pt",
+   "ano": 2017,
+   "duracaoMin": 79.8,
+   "classificacao": "L",
+   "motivoClassificacao": "Sugestão do Microflix: programa de divulgação científica de TV universitária, com narração e imagens do espaço.",
+   "descricao": "Programa da TV Unesp, a televisão da universidade estadual paulista, em episódios de 4 a 7 minutos. Esta seleção junta 14 episódios publicados entre 2017 e 2023: o Sistema Solar, quase todos os planetas (um por episódio), a Lua, Plutão, asteroides e cometas, meteoritos e o lixo espacial.",
+   "porQueAssistir": "Somando os episódios, são 80 minutos para atravessar o Sistema Solar em português, com um assunto por episódio.",
+   "canal": "TV Unesp",
+   "canalId": "UCaRwlcHcvQbrfdbTF500zLA",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial da TV Unesp",
+   "urlPagina": "https://www.youtube.com/playlist?list=PLTKZh-tngi2VcRTo4LmyXkmuV_qP3DWjc",
+   "player": {
+    "tipo": "youtube",
+    "id": "prDb3LrWxAY"
+   },
+   "episodios": [
+    {
+     "titulo": "Sistema Solar",
+     "youtubeId": "prDb3LrWxAY",
+     "duracaoMin": 4.9
+    },
+    {
+     "titulo": "Mercúrio",
+     "youtubeId": "juXCVYHN6yM",
+     "duracaoMin": 6.5
+    },
+    {
+     "titulo": "Terra",
+     "youtubeId": "X3oBpzzeK7g",
+     "duracaoMin": 4.9
+    },
+    {
+     "titulo": "Lua",
+     "youtubeId": "twNl_rYTPeo",
+     "duracaoMin": 5.8
+    },
+    {
+     "titulo": "Marte",
+     "youtubeId": "wepJmeNAF58",
+     "duracaoMin": 6.4
+    },
+    {
+     "titulo": "Júpiter",
+     "youtubeId": "9fZbSr8zK84",
+     "duracaoMin": 5.5
+    },
+    {
+     "titulo": "A Grande Mancha Vermelha de Júpiter",
+     "youtubeId": "LuuetsR1u7Y",
+     "duracaoMin": 4.3
+    },
+    {
+     "titulo": "Saturno",
+     "youtubeId": "Fkh7sYcuAeI",
+     "duracaoMin": 4.4
+    },
+    {
+     "titulo": "Urano",
+     "youtubeId": "hEe2oWlPihk",
+     "duracaoMin": 6.8
+    },
+    {
+     "titulo": "Netuno",
+     "youtubeId": "I98Pzb8jabU",
+     "duracaoMin": 6.2
+    },
+    {
+     "titulo": "Plutão",
+     "youtubeId": "5XKdeqRcFB0",
+     "duracaoMin": 6
+    },
+    {
+     "titulo": "Pequenos corpos do Sistema Solar",
+     "youtubeId": "Y4EXt5wcPWk",
+     "duracaoMin": 6
+    },
+    {
+     "titulo": "Meteoritos",
+     "youtubeId": "hcBq9lc-qys",
+     "duracaoMin": 6.1
+    },
+    {
+     "titulo": "Lixo espacial",
+     "youtubeId": "-vYrei1bs64",
+     "duracaoMin": 6
+    }
+   ]
+  },
+  {
+   "id": "astrolab-ceu-e-universo",
+   "titulo": "Astrolab: o céu e o Universo",
+   "tipo": "serie",
+   "fileira": "Espaço",
+   "eixo": "educativo",
+   "idioma": "pt",
+   "ano": 2018,
+   "duracaoMin": 102.3,
+   "classificacao": "L",
+   "motivoClassificacao": "Sugestão do Microflix: programa de divulgação científica de TV universitária, com narração, imagens do céu e entrevistas.",
+   "descricao": "Segunda seleção do Astrolab, da TV Unesp, com 17 episódios publicados entre 2018 e 2023. Começa ensinando a observar o céu e como funciona um telescópio, passa por eclipses, chuvas de meteoros, constelações (inclusive as indígenas) e poluição luminosa, e chega às nebulosas, às estrelas, às galáxias e à origem do Universo.",
+   "porQueAssistir": "Alguns episódios servem para praticar no quintal, como o das constelações de verão e o que ensina a achar o meio-dia verdadeiro com uma experiência simples.",
+   "canal": "TV Unesp",
+   "canalId": "UCaRwlcHcvQbrfdbTF500zLA",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial da TV Unesp",
+   "urlPagina": "https://www.youtube.com/playlist?list=PLTKZh-tngi2VcRTo4LmyXkmuV_qP3DWjc",
+   "player": {
+    "tipo": "youtube",
+    "id": "lxYmMDsTHis"
+   },
+   "episodios": [
+    {
+     "titulo": "Observação do céu",
+     "youtubeId": "lxYmMDsTHis",
+     "duracaoMin": 6.8
+    },
+    {
+     "titulo": "Como funcionam os telescópios?",
+     "youtubeId": "FG215URhvhQ",
+     "duracaoMin": 6.9
+    },
+    {
+     "titulo": "Como ocorrem os dias e as noites?",
+     "youtubeId": "BszKR5wC3Fs",
+     "duracaoMin": 6.5
+    },
+    {
+     "titulo": "Saiba como encontrar o meio-dia verdadeiro",
+     "youtubeId": "R2k2Jt6Edug",
+     "duracaoMin": 5.7
+    },
+    {
+     "titulo": "Solstícios e equinócios",
+     "youtubeId": "dKx6xX4-QXI",
+     "duracaoMin": 6.1
+    },
+    {
+     "titulo": "Efemérides: eclipses solares e lunares",
+     "youtubeId": "K9UlZ9dtUb4",
+     "duracaoMin": 6.4
+    },
+    {
+     "titulo": "Efemérides: chuva de meteoros",
+     "youtubeId": "4095s964oy0",
+     "duracaoMin": 5.7
+    },
+    {
+     "titulo": "Constelações de verão",
+     "youtubeId": "YMSz6vK2jpk",
+     "duracaoMin": 5.8
+    },
+    {
+     "titulo": "Constelações indígenas",
+     "youtubeId": "8TqXHNBpAbk",
+     "duracaoMin": 5.5
+    },
+    {
+     "titulo": "Sabe o que é poluição luminosa?",
+     "youtubeId": "pXpd-ADiAR8",
+     "duracaoMin": 5.3
+    },
+    {
+     "titulo": "Escalas e distâncias do Universo",
+     "youtubeId": "tMX2vbbGQa8",
+     "duracaoMin": 5.3
+    },
+    {
+     "titulo": "O que são nebulosas?",
+     "youtubeId": "UKMakfQ1EOw",
+     "duracaoMin": 5.2
+    },
+    {
+     "titulo": "As estrelas nascem e morrem?",
+     "youtubeId": "0_aqC8O8mfo",
+     "duracaoMin": 5.8
+    },
+    {
+     "titulo": "O que é uma galáxia?",
+     "youtubeId": "5xZ5H97uLAs",
+     "duracaoMin": 7.1
+    },
+    {
+     "titulo": "Nossa galáxia vai colidir com Andrômeda?",
+     "youtubeId": "NmKPguQqWS8",
+     "duracaoMin": 4.8
+    },
+    {
+     "titulo": "Origens do Universo",
+     "youtubeId": "WQQ6nQuje80",
+     "duracaoMin": 7.8
+    },
+    {
+     "titulo": "Será que existe vida fora da Terra?",
+     "youtubeId": "dtk-KLj8Drs",
+     "duracaoMin": 5.6
+    }
+   ]
+  },
+  {
+   "id": "ted-ed-tamanho-do-universo",
+   "titulo": "TED-Ed: o tamanho do Universo",
+   "tipo": "serie",
+   "fileira": "Espaço",
+   "eixo": "educativo",
+   "idioma": "en",
+   "legendaPT": "pt-BR",
+   "ano": 2013,
+   "duracaoMin": 35.4,
+   "classificacao": "L",
+   "motivoClassificacao": "Sugestão do Microflix: aulas animadas de ciência, feitas para uso em escola.",
+   "descricao": "Oito aulas animadas do TED-Ed, o canal educativo do TED, de 4 a 6 minutos cada e com fala em inglês. A primeira parte da foto que o telescópio Hubble tirou em 1995 de uma área do céu perto da Ursa Maior. As outras tratam da medida das distâncias no espaço, do estudo das estrelas, da idade da luz do Sol, dos eclipses, da ilusão da Lua grande no horizonte, das supernovas e do começo do Universo.",
+   "porQueAssistir": "Cada aula responde uma pergunta só, como por que a Lua parece maior perto do horizonte, e a legenda em português do Brasil está disponível em todas.",
+   "canal": "TED-Ed",
+   "canalId": "UCsooa4yRKGN_zEE8iknghZA",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial do canal TED-Ed",
+   "urlPagina": "https://www.youtube.com/@TEDEd",
+   "player": {
+    "tipo": "youtube",
+    "id": "WYQ3O8U6SMY"
+   },
+   "episodios": [
+    {
+     "titulo": "Quão pequenos somos diante do Universo?",
+     "youtubeId": "WYQ3O8U6SMY",
+     "duracaoMin": 4.1
+    },
+    {
+     "titulo": "Como medimos as distâncias no espaço?",
+     "youtubeId": "Op3AYaJc0Xw",
+     "duracaoMin": 5.5
+    },
+    {
+     "titulo": "Como estudamos as estrelas?",
+     "youtubeId": "i7930fj3T54",
+     "duracaoMin": 4.8
+    },
+    {
+     "titulo": "A luz do Sol é muito mais antiga do que você pensa",
+     "youtubeId": "Z-UO-RZBQ3U",
+     "duracaoMin": 4.6
+    },
+    {
+     "titulo": "O que causa um eclipse total do Sol?",
+     "youtubeId": "Qog18tiNnqg",
+     "duracaoMin": 3.8
+    },
+    {
+     "titulo": "A ilusão da Lua",
+     "youtubeId": "RXkYjL_7jME",
+     "duracaoMin": 4.2
+    },
+    {
+     "titulo": "Como detectar uma supernova",
+     "youtubeId": "xYxyTZG7APQ",
+     "duracaoMin": 4.7
+    },
+    {
+     "titulo": "O princípio do Universo, para principiantes",
+     "youtubeId": "DmUiCweDic4",
+     "duracaoMin": 3.7
+    }
+   ]
+  },
+  {
+   "id": "ted-ed-gente-no-espaco",
+   "titulo": "TED-Ed: gente no espaço",
+   "tipo": "serie",
+   "fileira": "Espaço",
+   "eixo": "educativo",
+   "idioma": "en",
+   "legendaPT": "pt-BR",
+   "ano": 2013,
+   "duracaoMin": 36.4,
+   "classificacao": "L",
+   "motivoClassificacao": "Sugestão do Microflix: aulas animadas de ciência, feitas para uso em escola.",
+   "descricao": "Sete aulas animadas do TED-Ed sobre as pessoas e as máquinas que vão ao espaço, com fala em inglês. A primeira é sobre a vida do astronauta Jerry Carr, comandante de uma missão na estação Skylab. Depois vêm a corrida espacial, a Estação Espacial Internacional, a sonda Parker, que tocou a atmosfera externa do Sol, a possibilidade de morar em Marte e as luas com oceanos de Júpiter e Saturno.",
+   "porQueAssistir": "Responde perguntas práticas, como de onde vem o ar que os astronautas respiram na estação espacial.",
+   "canal": "TED-Ed",
+   "canalId": "UCsooa4yRKGN_zEE8iknghZA",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial do canal TED-Ed",
+   "urlPagina": "https://www.youtube.com/@TEDEd",
+   "player": {
+    "tipo": "youtube",
+    "id": "ZZyNwGD3XE0"
+   },
+   "episodios": [
+    {
+     "titulo": "A vida de um astronauta, com Jerry Carr",
+     "youtubeId": "ZZyNwGD3XE0",
+     "duracaoMin": 4.8
+    },
+    {
+     "titulo": "Quem ganhou a corrida espacial?",
+     "youtubeId": "FxpC-8f--xo",
+     "duracaoMin": 4.8
+    },
+    {
+     "titulo": "A colaboração por trás da Estação Espacial Internacional",
+     "youtubeId": "bJ3oTTm_Pdo",
+     "duracaoMin": 5
+    },
+    {
+     "titulo": "Como a estação espacial nunca fica sem oxigênio?",
+     "youtubeId": "5ljV0Vxu00M",
+     "duracaoMin": 6.2
+    },
+    {
+     "titulo": "Como a NASA tocou o Sol sem derreter?",
+     "youtubeId": "tekiHV-e8Uw",
+     "duracaoMin": 5.8
+    },
+    {
+     "titulo": "Dá mesmo para viver em Marte?",
+     "youtubeId": "DMMPYkRrd4o",
+     "duracaoMin": 4.5
+    },
+    {
+     "titulo": "Pode existir vida em outros mundos do Sistema Solar",
+     "youtubeId": "odP3akRWJlY",
+     "duracaoMin": 5.3
+    }
+   ]
+  },
+  {
+   "id": "canal-tv-valongo",
+   "titulo": "TV Valongo",
+   "tipo": "canal",
+   "fileira": "Canais",
+   "eixo": "educativo",
+   "idioma": "pt",
+   "ano": 2026,
+   "duracaoMin": 5,
+   "classificacao": "L",
+   "motivoClassificacao": "Sugestão do Microflix: notícias de astronomia apresentadas pela equipe de um observatório universitário, em tom de aula.",
+   "descricao": "Canal oficial do Observatório do Valongo, da UFRJ, no Rio de Janeiro. Os vídeos mais comuns são os do Hipernova, notícia de astronomia de 3 a 5 minutos com os links das fontes na descrição, e às vezes um Ciência na Sociedade, uma conversa de 8 a 14 minutos com convidados.",
+   "porQueAssistir": "Mostra descobertas recentes, como a cratera nova na Lua achada por um satélite da NASA, explicadas em português por quem estuda astronomia.",
+   "canal": "TV Valongo (Observatório do Valongo, UFRJ)",
+   "canalId": "UCdEDU8wVrCVgIXfyuCXBgmA",
+   "plataforma": "YouTube",
+   "licenca": "Canal oficial do Observatório do Valongo (UFRJ)",
+   "urlPagina": "https://www.youtube.com/channel/UCdEDU8wVrCVgIXfyuCXBgmA",
+   "player": {
+    "tipo": "canal-youtube"
+   },
+   "capa": "https://i.ytimg.com/vi/7ivkWyQHXsA/mqdefault.jpg",
+   "canalAutor": "TV Valongo"
+  },
+  {
+   "id": "viagem-a-lua",
+   "titulo": "Viagem à Lua",
+   "tituloOriginal": "Le Voyage dans la Lune",
+   "tipo": "curta",
+   "fileira": "Filmes e curtas",
+   "eixo": "diversao",
+   "idioma": "sem-fala",
+   "ano": 1902,
+   "duracaoMin": 12.8,
+   "classificacao": "L",
+   "motivoClassificacao": "Sugestão do Microflix, porque o filme não tem classificação oficial no Brasil: só há confusão de faz de conta, no estilo de desenho animado, sem sangue.",
+   "descricao": "Filme francês de 1902, mudo e em preto e branco, dirigido por Georges Méliès, um mágico de teatro que virou cineasta. Seis astrônomos embarcam numa cápsula disparada por um canhão gigante, e ela acaba cravada no olho da Lua. Os efeitos foram feitos à mão, com cenários pintados e emendas na película.",
+   "porQueAssistir": "A cena da cápsula no olho da Lua é uma das imagens mais famosas da história do cinema e aparece recriada em A Invenção de Hugo Cabret (2011).",
+   "ressalva": "Esta cópia é muda de verdade: não tem música nem som.",
+   "canal": "Star Film (Georges Méliès), via Wikimedia Commons",
+   "plataforma": "Wikimedia Commons",
+   "licenca": "Domínio público (Georges Méliès morreu em 1938; o Commons marca o arquivo como PD-old-auto-expired)",
+   "urlPagina": "https://commons.wikimedia.org/wiki/File:Le_Voyage_dans_la_Lune_(1902).webm",
+   "player": {
+    "tipo": "mp4",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6d/Le_Voyage_dans_la_Lune_%281902%29.webm/Le_Voyage_dans_la_Lune_%281902%29.webm.1080p.vp9.webm"
+   },
+   "capa": "https://upload.wikimedia.org/wikipedia/commons/0/04/Le_Voyage_dans_la_lune.jpg"
+  },
+  {
+   "id": "eletricidade-feita-em-casa",
+   "titulo": "Eletricidade feita em casa",
+   "tipo": "serie",
+   "fileira": "Ciência e engenharia",
+   "eixo": "educativo",
+   "idioma": "pt",
+   "ano": 2012,
+   "duracaoMin": 42.8,
+   "classificacao": "L",
+   "motivoClassificacao": "Sugestão do Microflix: livre. São montagens na bancada, sem violência e sem palavrão; pilhas, ímãs fortes e peças de aparelho desmontado pedem um adulto por perto para quem quiser repetir.",
+   "descricao": "Iberê Thenório, do Manual do Mundo, monta sete experimentos com material de casa, gravados entre 2012 e 2014. A sequência começa com pilhas de latinha de alumínio e de forminha de gelo, passa por um eletroímã e por dois motores elétricos e termina com dois geradores: um aproveita o motorzinho da gaveta de um DVD e o outro gira com o vento.",
+   "porQueAssistir": "Vistos em ordem, os episódios mostram a pilha criando corrente, a corrente virando ímã, o ímã fazendo o motor girar e o motor, quando alguém gira o eixo, produzindo energia de volta.",
+   "ressalva": "Se for repetir algum experimento, chame um adulto para ajudar.",
+   "canal": "Manual do Mundo",
+   "canalId": "UCKHhA5hN2UohhFDfNXB_cvQ",
+   "plataforma": "YouTube",
+   "licenca": "upload oficial do canal Manual do Mundo",
+   "urlPagina": "https://www.youtube.com/watch?v=T355v2v0SK8",
+   "player": {
+    "tipo": "youtube",
+    "id": "T355v2v0SK8"
+   },
+   "episodios": [
+    {
+     "titulo": "Bateria de latinha de alumínio",
+     "youtubeId": "T355v2v0SK8",
+     "duracaoMin": 6
+    },
+    {
+     "titulo": "Bateria de forminha de gelo",
+     "youtubeId": "19YS4KuiK_w",
+     "duracaoMin": 4.5
+    },
+    {
+     "titulo": "Eletroímã caseiro",
+     "youtubeId": "j2kHpzP7elQ",
+     "duracaoMin": 5.7
+    },
+    {
+     "titulo": "O motor mais simples do mundo (motor homopolar)",
+     "youtubeId": "pLbY5ykcGb0",
+     "duracaoMin": 7
+    },
+    {
+     "titulo": "Motor elétrico com fio e ímã",
+     "youtubeId": "3nbDBCg6thM",
+     "duracaoMin": 6.2
+    },
+    {
+     "titulo": "Gerador feito com o motor de um DVD",
+     "youtubeId": "TyANOy7d-kQ",
+     "duracaoMin": 8.1
+    },
+    {
+     "titulo": "Minigerador eólico",
+     "youtubeId": "VKFpp1oljps",
+     "duracaoMin": 5.3
+    }
+   ]
+  },
+  {
+   "id": "energia-que-vira-movimento",
+   "titulo": "Energia que vira movimento",
+   "tipo": "serie",
+   "fileira": "Ciência e engenharia",
+   "eixo": "educativo",
+   "idioma": "pt",
+   "ano": 2012,
+   "duracaoMin": 40.2,
+   "classificacao": "L",
+   "motivoClassificacao": "Sugestão do Microflix: livre. Montagens e um passeio de trem, sem violência e sem palavrão; vela acesa e ratoeira pedem um adulto junto para quem quiser repetir.",
+   "descricao": "Quatro vídeos do Manual do Mundo sobre máquinas que se mexem com calor ou com mola. Iberê Thenório faz um motor com uma vela e um palito de dente, monta um carrinho puxado pela mola de uma ratoeira e constrói um barquinho a vapor. No último, de 2022, a equipe anda na Marta, maria-fumaça de 1922 restaurada pela Associação Brasileira de Preservação Ferroviária, no Museu da Imigração, em São Paulo.",
+   "porQueAssistir": "A série começa num palito de dente e termina numa locomotiva de verdade, que veio ao Brasil para ajudar a derrubar uma montanha no Rio de Janeiro e quase virou sucata na década de 1960.",
+   "ressalva": "Dois experimentos usam fogo e um usa ratoeira: para repetir, só com um adulto.",
+   "canal": "Manual do Mundo",
+   "canalId": "UCKHhA5hN2UohhFDfNXB_cvQ",
+   "plataforma": "YouTube",
+   "licenca": "upload oficial do canal Manual do Mundo",
+   "urlPagina": "https://www.youtube.com/watch?v=tIDYymgpIQQ",
+   "player": {
+    "tipo": "youtube",
+    "id": "tIDYymgpIQQ"
+   },
+   "episodios": [
+    {
+     "titulo": "Motor de vela",
+     "youtubeId": "tIDYymgpIQQ",
+     "duracaoMin": 3.9
+    },
+    {
+     "titulo": "Carrinho com motor de ratoeira",
+     "youtubeId": "DWPRipw3SyM",
+     "duracaoMin": 10.6
+    },
+    {
+     "titulo": "Barco a vapor pop-pop",
+     "youtubeId": "QHcXqpYGJ8M",
+     "duracaoMin": 15.7
+    },
+    {
+     "titulo": "Como funciona uma maria-fumaça",
+     "youtubeId": "nOgoN1a_4XM",
+     "duracaoMin": 10
+    }
+   ]
+  },
+  {
+   "id": "tabela-periodica-ciencia-todo-dia",
+   "titulo": "Já descobrimos todos os elementos da tabela periódica?",
+   "tituloOriginal": "Já descobrimos TODOS os elementos da TABELA PERIÓDICA?",
+   "tipo": "video",
+   "fileira": "Ciência e engenharia",
+   "eixo": "educativo",
+   "idioma": "pt",
+   "ano": 2026,
+   "duracaoMin": 9.2,
+   "classificacao": "L",
+   "motivoClassificacao": "Sugestão do Microflix: livre. Química contada com animações de átomos, sem violência e sem palavrão.",
+   "descricao": "Pedro Loos conta como Dmitri Mendeleiev organizou a tabela periódica e como os cientistas passaram a fabricar, em laboratório, elementos mais pesados que o urânio. Depois explica a ilha de estabilidade, ideia do químico Glenn Seaborg, e até onde a ciência já chegou na criação de elementos novos.",
+   "porQueAssistir": "Combina com a aula do TED-Ed sobre Mendeleiev, que também está no catálogo, e conta o que aconteceu com a tabela depois dele.",
+   "canal": "Ciência Todo Dia",
+   "canalId": "UCn9Erjy00mpnWeLnRqhsA1g",
+   "plataforma": "YouTube",
+   "licenca": "upload oficial do canal Ciência Todo Dia",
+   "urlPagina": "https://www.youtube.com/watch?v=6zpLka5s6Xg",
+   "player": {
+    "tipo": "youtube",
+    "id": "6zpLka5s6Xg"
+   }
+  },
+  {
+   "id": "ted-ed-paineis-solares",
+   "titulo": "Como funcionam os painéis solares",
+   "tituloOriginal": "How do solar panels work? - Richard Komp",
+   "tipo": "video",
+   "fileira": "Ciência e engenharia",
+   "eixo": "educativo",
+   "idioma": "en",
+   "legendaPT": "pt-BR",
+   "ano": 2016,
+   "duracaoMin": 5.0,
+   "classificacao": "L",
+   "motivoClassificacao": "Sugestão do Microflix: livre. Animação de aula, sem violência e sem cena de risco.",
+   "descricao": "A Terra recebe do Sol 173 mil terawatts de energia, cerca de 10 mil vezes o que toda a população do planeta usa. Nesta aula animada do TED-Ed, de 2016, Richard Komp mostra como um painel solar transforma luz em eletricidade e discute se o mundo poderia um dia viver só de energia solar.",
+   "porQueAssistir": "Em cinco minutos fica claro o que acontece dentro das placas que aparecem nos telhados.",
+   "canal": "TED-Ed",
+   "canalId": "UCsooa4yRKGN_zEE8iknghZA",
+   "plataforma": "YouTube",
+   "licenca": "upload oficial do canal TED-Ed",
+   "urlPagina": "https://www.youtube.com/watch?v=xKxrkht7CpY",
+   "player": {
+    "tipo": "youtube",
+    "id": "xKxrkht7CpY"
+   }
+  },
+  {
+   "id": "ted-ed-mendeleiev",
+   "titulo": "A genialidade da tabela periódica de Mendeleiev",
+   "tituloOriginal": "The genius of Mendeleev's periodic table - Lou Serico",
+   "tipo": "video",
+   "fileira": "Ciência e engenharia",
+   "eixo": "educativo",
+   "idioma": "en",
+   "legendaPT": "pt",
+   "ano": 2012,
+   "duracaoMin": 4.4,
+   "classificacao": "L",
+   "motivoClassificacao": "Sugestão do Microflix: livre. Animação sobre a história da química, sem violência.",
+   "descricao": "Antes de Dmitri Mendeleiev, outros químicos já tinham listado os elementos e até juntado os parecidos. Nesta aula animada do TED-Ed, de 2012, Lou Serico explica por que a tabela dele foi a que ficou, a partir do eka-alumínio, um elemento que Mendeleiev previu anos antes de alguém encontrá-lo.",
+   "porQueAssistir": "Mostra uma tabela tão bem organizada que conseguiu prever um elemento que ninguém tinha visto.",
+   "canal": "TED-Ed",
+   "canalId": "UCsooa4yRKGN_zEE8iknghZA",
+   "plataforma": "YouTube",
+   "licenca": "upload oficial do canal TED-Ed",
+   "urlPagina": "https://www.youtube.com/watch?v=fPnwBITSmgU",
+   "player": {
+    "tipo": "youtube",
+    "id": "fPnwBITSmgU"
+   }
+  },
+  {
+   "id": "ted-ed-baterias",
+   "titulo": "Como funcionam as baterias",
+   "tituloOriginal": "How batteries work - Adam Jacobson",
+   "tipo": "video",
+   "fileira": "Ciência e engenharia",
+   "eixo": "educativo",
+   "idioma": "en",
+   "legendaPT": "pt-BR",
+   "ano": 2015,
+   "duracaoMin": 4.3,
+   "classificacao": "L",
+   "motivoClassificacao": "Sugestão do Microflix: livre. Animação de aula, sem violência.",
+   "descricao": "As baterias deixam o celular e outros aparelhos funcionarem longe da tomada, mas até as melhores perdem um pouco de capacidade a cada dia. Nesta aula animada do TED-Ed, de 2015, Adam Jacobson explica como uma bateria guarda tanta carga e por que ela vai enfraquecendo até parar.",
+   "porQueAssistir": "Depois das pilhas de latinha e de forminha de gelo do Manual do Mundo, aqui aparece o que acontece dentro das baterias de todo dia.",
+   "canal": "TED-Ed",
+   "canalId": "UCsooa4yRKGN_zEE8iknghZA",
+   "plataforma": "YouTube",
+   "licenca": "upload oficial do canal TED-Ed",
+   "urlPagina": "https://www.youtube.com/watch?v=9OVtk6G2TnQ",
+   "player": {
+    "tipo": "youtube",
+    "id": "9OVtk6G2TnQ"
+   }
+  },
+  {
+   "id": "ted-ed-biscoito",
+   "titulo": "Como fazer o biscoito perfeito, segundo a ciência",
+   "tituloOriginal": "How to make the perfect cookies (according to science) - Stephanie Warren",
+   "tipo": "video",
+   "fileira": "Ciência e engenharia",
+   "eixo": "educativo",
+   "idioma": "en",
+   "legendaPT": "pt-BR",
+   "ano": 2013,
+   "duracaoMin": 4.5,
+   "classificacao": "L",
+   "motivoClassificacao": "Sugestão do Microflix: livre. Animação sobre culinária; a bactéria salmonela aparece só para explicar a temperatura do forno.",
+   "descricao": "A massa entra no forno e sai biscoito, e cada etapa tem uma explicação química. Nesta aula animada do TED-Ed, de 2013, Stephanie Warren mostra por que a massa se espalha, em que temperatura a salmonela morre e o que o cheiro que sai do forno indica.",
+   "porQueAssistir": "É química para conferir na próxima fornada de biscoitos em casa.",
+   "ressalva": "Se quiser testar a receita, o forno pede um adulto.",
+   "canal": "TED-Ed",
+   "canalId": "UCsooa4yRKGN_zEE8iknghZA",
+   "plataforma": "YouTube",
+   "licenca": "upload oficial do canal TED-Ed",
+   "urlPagina": "https://www.youtube.com/watch?v=n6wpNhyreDE",
+   "player": {
+    "tipo": "youtube",
+    "id": "n6wpNhyreDE"
+   }
+  },
+  {
+   "id": "engenharia-com-lego",
+   "titulo": "Engenharia com LEGO",
+   "tipo": "serie",
+   "fileira": "Ciência e engenharia",
+   "eixo": "educativo",
+   "idioma": "sem-fala",
+   "ano": 2024,
+   "duracaoMin": 40.9,
+   "classificacao": "L",
+   "motivoClassificacao": "Sugestão do Microflix: livre. Só aparecem máquinas de LEGO e as mãos de quem monta, sem fala e sem violência.",
+   "descricao": "Um construtor monta máquinas de LEGO e testa cada versão contra a anterior até achar a melhor, sem narração. Nesta seleção há prédios numa mesa que treme como num terremoto, motores a pistão como o W16 do Bugatti Veyron, uma fragmentadora de papel feita só de peças LEGO, carros num cabo de guerra e em pontes que vão estreitando, e robôs que andam com 2 a 16 pernas.",
+   "porQueAssistir": "Cada teste mostra na prática o que uma mudança faz: a trava em diagonal no prédio, a troca de engrenagem e de roda no carro do cabo de guerra.",
+   "canal": "Brick Experiment Channel",
+   "canalId": "UClsFdM0HzTdF1JYoraQ0aUw",
+   "plataforma": "YouTube",
+   "licenca": "upload oficial do Brick Experiment Channel",
+   "urlPagina": "https://www.youtube.com/watch?v=_R6E1_T16_g",
+   "player": {
+    "tipo": "youtube",
+    "id": "_R6E1_T16_g"
+   },
+   "episodios": [
+    {
+     "titulo": "Prédio de LEGO contra terremoto",
+     "youtubeId": "_R6E1_T16_g",
+     "duracaoMin": 6.9
+    },
+    {
+     "titulo": "Motores a pistão de LEGO",
+     "youtubeId": "r41TqrJCjHQ",
+     "duracaoMin": 12
+    },
+    {
+     "titulo": "Fragmentadora de papel feita de LEGO",
+     "youtubeId": "PzkriutiChE",
+     "duracaoMin": 6.2
+    },
+    {
+     "titulo": "Carro de LEGO no cabo de guerra",
+     "youtubeId": "Ht99eQYwpaI",
+     "duracaoMin": 3.1
+    },
+    {
+     "titulo": "Carro de LEGO em pontes estreitas",
+     "youtubeId": "fPvHJJ9CzcA",
+     "duracaoMin": 3.4
+    },
+    {
+     "titulo": "Cinco robôs de LEGO que andam com pernas",
+     "youtubeId": "LOJuK3eR8FM",
+     "duracaoMin": 9.3
+    }
+   ]
+  },
+  {
+   "id": "marble-machine",
+   "titulo": "Marble Machine: a máquina de música de bolinhas de gude",
+   "tituloOriginal": "Wintergatan - Marble Machine (music instrument using 2000 marbles)",
+   "tipo": "video",
+   "fileira": "Ciência e engenharia",
+   "eixo": "diversao",
+   "idioma": "sem-fala",
+   "ano": 2016,
+   "duracaoMin": 4.5,
+   "classificacao": "L",
+   "motivoClassificacao": "Sugestão do Microflix: livre. Apresentação musical sem fala e sem cena de risco.",
+   "descricao": "O músico sueco Martin Molin, da banda Wintergatan, levou mais de um ano para construir um instrumento de madeira movido a manivela, que toca bumbo, caixa, vibrafone e baixo com 2.000 bolinhas de gude. No vídeo de 2016 ele toca uma música inteira na máquina, sem nenhuma fala.",
+   "porQueAssistir": "Dá para seguir uma bolinha do alto da máquina até a nota que ela toca, como numa máquina de redstone do Minecraft feita de madeira.",
+   "canal": "Wintergatan",
+   "canalId": "UCcXhhVwCT6_WqjkEniejRJQ",
+   "plataforma": "YouTube",
+   "licenca": "upload oficial do canal Wintergatan",
+   "urlPagina": "https://www.youtube.com/watch?v=IvUU8joBb1Q",
+   "player": {
+    "tipo": "youtube",
+    "id": "IvUU8joBb1Q"
+   }
+  },
+  {
+   "id": "canal-primitive-technology",
+   "titulo": "Primitive Technology",
+   "tituloOriginal": "Primitive Technology",
+   "tipo": "canal",
+   "fileira": "Canais",
+   "eixo": "educativo",
+   "idioma": "sem-fala",
+   "ano": 2015,
+   "duracaoMin": 15,
+   "classificacao": "L",
+   "motivoClassificacao": "Sugestão do Microflix: livre. Trabalho manual com barro, pedra e fogo, sem fala e sem violência.",
+   "descricao": "O australiano John Plant constrói tudo do zero no mato, no extremo norte de Queensland, sem ferramenta e sem material moderno. Nos vídeos mais recentes ele queima telhas e tijolos de barro, ergue uma cabana com aquecimento sob o piso e testa fornos para tirar ferro. Ninguém fala: só se ouve o trabalho, a chuva, os bichos e o riacho.",
+   "porQueAssistir": "Os vídeos mostram, passo a passo, como se faz um fole de água ou uma telha de barro usando só o que existe no mato.",
+   "ressalva": "Em muitos vídeos tem fogo alto e forno quente. Isso fica só na tela.",
+   "canal": "Primitive Technology",
+   "canalId": "UCAL3JXZSzSm8AlZyD3nQdBA",
+   "plataforma": "YouTube",
+   "licenca": "canal oficial do criador, John Plant",
+   "urlPagina": "https://www.youtube.com/@primitivetechnology9550",
+   "player": {
+    "tipo": "canal-youtube"
+   },
+   "capa": "https://i.ytimg.com/vi/PXuV_YCt8g4/mqdefault.jpg",
+   "canalAutor": "Primitive Technology"
+  },
+  {
+   "id": "canal-minuto-da-terra",
+   "titulo": "Minuto da Terra",
+   "tituloOriginal": "Minuto da Terra (MinuteEarth em português)",
+   "tipo": "canal",
+   "fileira": "Canais",
+   "eixo": "educativo",
+   "idioma": "pt",
+   "duracaoMin": 4,
+   "classificacao": "10",
+   "motivoClassificacao": "Sugestão do Microflix: 10 anos. Vários vídeos recentes falam de doenças graves, como a raiva, e das causas de morte, sempre em desenho e em tom de aula.",
+   "descricao": "Versão brasileira oficial do canal MinuteEarth, com desenhos simples e narração em português. Cada vídeo responde em 3 a 7 minutos a uma pergunta sobre bichos, doenças, vulcões ou o planeta, como a altura máxima que uma ave consegue voar ou por que os mosquitos picam mais algumas pessoas.",
+   "porQueAssistir": "Cada pergunta curta vem com resposta tirada de estudos científicos e puxa um assunto novo, das tartarugas-verdes aos vulcões.",
+   "canal": "Minuto da Terra",
+   "canalId": "UCB0zinWfy-dS_NqcOINYo3A",
+   "plataforma": "YouTube",
+   "licenca": "tradução oficial e autorizada do MinuteEarth (Neptune Studios LLC), publicada no canal oficial",
+   "urlPagina": "https://www.youtube.com/@MinutodaTerra",
+   "player": {
+    "tipo": "canal-youtube"
+   },
+   "capa": "https://i.ytimg.com/vi/h04S3FnVvGs/mqdefault.jpg",
+   "canalAutor": "Minuto da Terra"
+  },
+  {
+   "id": "bastidores-do-minecraft",
+   "titulo": "Bastidores do Minecraft",
+   "tituloOriginal": "The Story Of (Ender Dragon, Chicken, Warden) e How Minecraft Sounds Are Made",
+   "tipo": "serie",
+   "fileira": "Minecraft e Rocket League",
+   "eixo": "educativo",
+   "idioma": "en",
+   "legendaPT": "pt-BR",
+   "ano": 2024,
+   "duracaoMin": 26.4,
+   "classificacao": "10",
+   "motivoClassificacao": "10: o episódio do Warden fala de sustos e do monstro mais temido do jogo, com cenas escuras; os outros três seriam L. Sem classificação oficial; é sugestão do Microflix.",
+   "descricao": "Quatro vídeos do canal oficial do Minecraft, publicados em 2024, em que desenvolvedores da Mojang contam como partes do jogo foram criadas. Três são da série The Story Of e tratam do Dragão Ender, da galinha e do Warden. No quarto, o diretor de áudio Samuel Åberg experimenta de tudo para achar o som certo, de um rolo de papel higiênico a golfinhos de verdade, e depois tenta refazer sons do jogo contra o relógio.",
+   "porQueAssistir": "Mostra o trabalho de gente de verdade por trás de cada criatura e de cada som que aparece no jogo.",
+   "canal": "Minecraft (Mojang Studios)",
+   "canalId": "UC1sELGmy5jp5fQUugmuYlXQ",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial da Mojang Studios no canal Minecraft",
+   "urlPagina": "https://www.youtube.com/watch?v=NDHnDP5CxKY",
+   "player": {
+    "tipo": "youtube",
+    "id": "NDHnDP5CxKY"
+   },
+   "episodios": [
+    {
+     "titulo": "Qual é o mistério por trás do Dragão Ender?",
+     "youtubeId": "NDHnDP5CxKY",
+     "duracaoMin": 6.2
+    },
+    {
+     "titulo": "Galinhas quase quebraram o Minecraft",
+     "youtubeId": "SLH3uf5WSXE",
+     "duracaoMin": 6.2
+    },
+    {
+     "titulo": "A vaca mais assustadora já criada: a história do Warden",
+     "youtubeId": "PiGKxxvCkUw",
+     "duracaoMin": 6.2
+    },
+    {
+     "titulo": "Como os sons do Minecraft são feitos",
+     "youtubeId": "4XmJPb4Qt5Y",
+     "duracaoMin": 7.8
+    }
+   ]
+  },
+  {
+   "id": "historia-do-minecraft",
+   "titulo": "A história de Minecraft",
+   "tituloOriginal": "A história de Minecraft - TecMundo",
+   "tipo": "video",
+   "fileira": "Minecraft e Rocket League",
+   "eixo": "educativo",
+   "idioma": "pt",
+   "ano": 2019,
+   "duracaoMin": 14.2,
+   "classificacao": "L",
+   "motivoClassificacao": "L: apresentador em estúdio e imagens do jogo, sem violência. Sugestão do Microflix.",
+   "descricao": "Episódio de 14 minutos da série História da Tecnologia, do TecMundo, publicado em outubro de 2019, quando o Minecraft completava dez anos. O roteiro e a apresentação são de Nilton Kleina. Ele conta como o jogo surgiu, como evoluiu e qual era a situação dele em 2019, passando por Markus Persson, o Notch, e pelas primeiras versões.",
+   "porQueAssistir": "Conta como um jogo que começou com um programador sozinho chegou a 2019 como um dos maiores fenômenos dos videogames.",
+   "canal": "TecMundo",
+   "canalId": "UCdmGjywrxeOPfC7vDllmSgQ",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial do canal TecMundo",
+   "urlPagina": "https://www.youtube.com/watch?v=TOPisjcmD08",
+   "player": {
+    "tipo": "youtube",
+    "id": "TOPisjcmD08"
+   }
+  },
+  {
+   "id": "historia-do-rocket-league",
+   "titulo": "A história de Rocket League, parte 1",
+   "tituloOriginal": "The Making of Rocket League - Documentary (Part 1)",
+   "tipo": "documentario",
+   "fileira": "Minecraft e Rocket League",
+   "eixo": "educativo",
+   "idioma": "en",
+   "legendaPT": "pt-BR",
+   "ano": 2016,
+   "duracaoMin": 22.2,
+   "classificacao": "10",
+   "motivoClassificacao": "10: aparecem por poucos segundos cenas de jogos de tiro antigos (Unreal Tournament), com armas e sangue em gráfico simples; o resto são entrevistas e Rocket League. Sem classificação oficial; é sugestão do Microflix.",
+   "descricao": "Primeira parte do documentário que o estúdio Noclip lançou em outubro de 2016 sobre a criação de Rocket League, apresentado pelo jornalista Danny O'Dwyer. Mostra como um modo de jogo de Unreal Tournament 2004 evoluiu até virar o futebol de carros que o jogo é hoje.",
+   "porQueAssistir": "Mostra quantos anos e quantas versões a Psyonix precisou até chegar ao Rocket League de hoje.",
+   "canal": "/noclip",
+   "canalId": "UC0fDG3byEcMtbOqPMymDNbw",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial do estúdio Noclip",
+   "urlPagina": "https://www.youtube.com/watch?v=Om0j9SLBDPQ",
+   "player": {
+    "tipo": "youtube",
+    "id": "Om0j9SLBDPQ"
+   }
+  },
+  {
+   "id": "singularity",
+   "titulo": "Singularity",
+   "tituloOriginal": "SINGULARITY",
+   "tipo": "curta",
+   "fileira": "Filmes e curtas",
+   "eixo": "diversao",
+   "idioma": "sem-fala",
+   "ano": 2026,
+   "duracaoMin": 6.5,
+   "classificacao": "L",
+   "motivoClassificacao": "Sem classificação oficial no Brasil. Sugestão L: sem fala e sem violência; o perigo é um buraco negro que persegue a criatura, com tensão leve.",
+   "descricao": "Numa época em que as estrelas e as galáxias ainda eram jovens, uma pequena criatura do espaço perde a casa de gelo, engolida por um evento cósmico. Ela foge e procura abrigo entre criaturas luminosas vigiadas por um ser celeste misterioso. O Blender Studio lançou o curta em maio de 2026, com visual de pintura.",
+   "porQueAssistir": "A história inteira se passa no espaço, quando o universo ainda era novo, e a direção é de Andy Goralczyk, o mesmo de Spring.",
+   "canal": "Blender Studio",
+   "canalId": "UCz75RVbH8q2jdBJ4SnwuZZQ",
+   "plataforma": "Wikimedia Commons",
+   "licenca": "Creative Commons CC BY 4.0 (Blender Studio)",
+   "urlPagina": "https://commons.wikimedia.org/wiki/File:SINGULARITY_-_Blender_Open_Movie-full_movie.webm",
+   "player": {
+    "tipo": "mp4",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/SINGULARITY_-_Blender_Open_Movie-full_movie.webm/SINGULARITY_-_Blender_Open_Movie-full_movie.webm.1080p.vp9.webm"
+   },
+   "capa": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/SINGULARITY_-_Blender_Open_Movie-full_movie.webm/960px-seek%3D100-SINGULARITY_-_Blender_Open_Movie-full_movie.webm.jpg"
+  },
+  {
+   "id": "one-small-step",
+   "titulo": "One Small Step",
+   "tituloOriginal": "One Small Step",
+   "tipo": "curta",
+   "fileira": "Filmes e curtas",
+   "eixo": "diversao",
+   "idioma": "sem-fala",
+   "ano": 2018,
+   "duracaoMin": 7.7,
+   "classificacao": "L",
+   "motivoClassificacao": "Sem classificação oficial no Brasil. Sugestão L: sem violência e sem fala; há uma morte na família sem violência, o que cabe no Livre.",
+   "descricao": "Luna é uma menina sino-americana que sonha ser astronauta desde pequena. O pai dela conserta sapatos e, no aniversário de seis anos, dá a ela botas decoradas com tema de astronauta. O curta da TAIKO Studios, dirigido por Andrew Chesworth e Bobby Pontillas, concorreu ao Oscar de melhor curta de animação em 2019.",
+   "porQueAssistir": "Quem sonha com o espaço vai se reconhecer na Luna, e a história toda é contada com imagem e música.",
+   "ressalva": "Tem uma parte triste perto do fim.",
+   "canal": "TAIKO Studios",
+   "plataforma": "Vimeo",
+   "licenca": "Upload oficial da TAIKO Studios, o estúdio que fez o filme",
+   "urlPagina": "https://vimeo.com/255698341",
+   "player": {
+    "tipo": "vimeo",
+    "id": "255698341"
+   },
+   "capa": "https://i.vimeocdn.com/video/726825661-ecace3eac0ff8b4d95e209eb7fab1fa63ef29568be4dc5508e5dadc92fda7d59-d_1280"
+  },
+  {
+   "id": "wing-it",
+   "titulo": "Wing It!",
+   "tituloOriginal": "WING IT!",
+   "tipo": "curta",
+   "fileira": "Filmes e curtas",
+   "eixo": "diversao",
+   "idioma": "sem-fala",
+   "ano": 2023,
+   "duracaoMin": 4,
+   "classificacao": "L",
+   "motivoClassificacao": "Sem classificação oficial no Brasil. Sugestão L: comédia de desenho com tombos e voo desgovernado, sem sangue nem ferimento (violência fantasiosa).",
+   "descricao": "Um gato engenheiro, muito certinho, trabalha num ônibus espacial quando recebe a visita de um cachorro animado que sonha ser piloto. A visita sai do controle, e os dois acabam lançados no ar dentro da nave desgovernada. O curta é do Blender Studio, de 2023, com direção de Rik Schutte.",
+   "porQueAssistir": "São quatro minutos de comédia de desenho sobre construir e pilotar uma nave espacial.",
+   "canal": "Blender Studio",
+   "canalId": "UCz75RVbH8q2jdBJ4SnwuZZQ",
+   "plataforma": "Wikimedia Commons",
+   "licenca": "Creative Commons CC BY 4.0 (Blender Studio)",
+   "urlPagina": "https://commons.wikimedia.org/wiki/File:WING_IT!_-_Blender_Open_Movie-full_movie.webm",
+   "player": {
+    "tipo": "mp4",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/38/WING_IT%21_-_Blender_Open_Movie-full_movie.webm/WING_IT%21_-_Blender_Open_Movie-full_movie.webm.1080p.vp9.webm"
+   },
+   "capa": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/WING_IT%21_-_Blender_Open_Movie-full_movie.webm/960px-seek%3D40-WING_IT%21_-_Blender_Open_Movie-full_movie.webm.jpg"
+  },
+  {
+   "id": "spring",
+   "titulo": "Spring",
+   "tituloOriginal": "Spring",
+   "tipo": "curta",
+   "fileira": "Filmes e curtas",
+   "eixo": "diversao",
+   "idioma": "sem-fala",
+   "ano": 2019,
+   "duracaoMin": 7.7,
+   "classificacao": "L",
+   "motivoClassificacao": "Sem classificação oficial no Brasil. Sugestão L: sem fala e sem violência; há tensão quando a pastora enfrenta os espíritos da floresta.",
+   "descricao": "Spring é uma jovem pastora que, com o seu cachorro, enfrenta espíritos antigos que congelaram a floresta, para que o ciclo da vida possa continuar. A ferramenta dela é um cajado com um sino que brilha. O diretor Andy Goralczyk se inspirou na infância nas montanhas da Alemanha, e o filme saiu em 2019, feito com o Blender 2.80 ainda em desenvolvimento.",
+   "porQueAssistir": "Levou o prêmio de melhor curta do festival Mundos Digitales, na Espanha, em 2019, e foi feito no Blender, um programa que qualquer pessoa pode baixar de graça.",
+   "ressalva": "Tem momentos de tensão quando Spring enfrenta os espíritos da floresta.",
+   "canal": "Blender Studio",
+   "canalId": "UCz75RVbH8q2jdBJ4SnwuZZQ",
+   "plataforma": "Wikimedia Commons",
+   "licenca": "Creative Commons CC BY 4.0 (Blender Studio)",
+   "urlPagina": "https://commons.wikimedia.org/wiki/File:Spring_-_Blender_Open_Movie.webm",
+   "player": {
+    "tipo": "mp4",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a5/Spring_-_Blender_Open_Movie.webm/Spring_-_Blender_Open_Movie.webm.1080p.vp9.webm"
+   },
+   "capa": "https://i.ytimg.com/vi/WhWc3b3KhnY/maxresdefault.jpg"
+  },
+  {
+   "id": "alike",
+   "titulo": "Alike",
+   "tituloOriginal": "Alike",
+   "tipo": "curta",
+   "fileira": "Filmes e curtas",
+   "eixo": "diversao",
+   "idioma": "sem-fala",
+   "ano": 2015,
+   "duracaoMin": 8.0,
+   "classificacao": "L",
+   "motivoClassificacao": "Sem classificação oficial no Brasil. Sugestão L: sem violência, sem medo e sem fala; o assunto é a rotina de um pai e de um filho.",
+   "descricao": "Numa cidade cinzenta e apressada, o pai Copi e o filho Paste são os únicos que ainda têm cor. A rotina do trabalho e da escola vai apagando essa cor aos poucos, e o pai precisa descobrir qual é o caminho certo para o menino. O curta espanhol de Daniel Martínez Lara e Rafa Cano Méndez ganhou o prêmio Goya de melhor curta de animação em 2016.",
+   "porQueAssistir": "Os nomes dos dois vêm de copiar e colar em inglês, e o filme mostra o que acontece quando todo mundo precisa fazer tudo igual.",
+   "canal": "Pepe School Land",
+   "plataforma": "Vimeo",
+   "licenca": "Upload oficial da Pepe School Land, a produtora do filme",
+   "urlPagina": "https://vimeo.com/194276412",
+   "player": {
+    "tipo": "vimeo",
+    "id": "194276412"
+   },
+   "capa": "https://i.vimeocdn.com/video/640766511-7f81622f35b6ee4b2670eb7d06a15340844c8dc1e7ae7d7d6db352da25e0670d-d_1280"
+  },
+  {
+   "id": "the-present",
+   "titulo": "The Present",
+   "tituloOriginal": "The Present",
+   "tipo": "curta",
+   "fileira": "Filmes e curtas",
+   "eixo": "diversao",
+   "idioma": "en",
+   "legendaPT": "pt",
+   "ano": 2014,
+   "duracaoMin": 4.3,
+   "classificacao": "L",
+   "motivoClassificacao": "Sem classificação oficial no Brasil. Sugestão L: sem violência e sem palavrão; num momento o menino afasta o filhote, irritado, sem ferimento.",
+   "descricao": "Um garoto passa os dias jogando videogame numa sala escura, até que a mãe chega com uma caixa e diz que é um presente. Dentro da caixa está um filhote de cachorro de três patas. O curta foi o trabalho de formatura de Jacob Frey numa escola de cinema da Alemanha, em 2014, e nasceu da tirinha Perfeição, publicada em 2012 pelo cartunista brasileiro Fábio Coala.",
+   "porQueAssistir": "A história veio de um quadrinho brasileiro, e o curta de quatro minutos passou por 293 festivais de cinema.",
+   "canal": "The Present",
+   "canalId": "UCkQ05wfDAZa3jeKhkFAvywA",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial (canal do próprio filme, com créditos da Filmakademie Baden-Württemberg)",
+   "urlPagina": "https://www.youtube.com/watch?v=WjqiU5FgsYc",
+   "player": {
+    "tipo": "youtube",
+    "id": "WjqiU5FgsYc"
+   }
+  },
+  {
+   "id": "pepper-e-carrot",
+   "titulo": "Pepper&Carrot: O Concurso de Poções",
+   "tituloOriginal": "Pepper&Carrot, Episode 6: The Potion Contest",
+   "tipo": "curta",
+   "fileira": "Filmes e curtas",
+   "eixo": "diversao",
+   "idioma": "en",
+   "legendaPT": "pt",
+   "ano": 2017,
+   "duracaoMin": 7.6,
+   "classificacao": "L",
+   "motivoClassificacao": "Sem classificação oficial no Brasil. Sugestão L: humor de fantasia com poções e monstros de desenho, sem sangue nem ferimento.",
+   "descricao": "Pepper é uma jovem bruxa que pega no sono antes do concurso de poções da cidade de Komona e acorda com a poção já escolhida pelo gato Carrot. Várias bruxas disputam o prêmio, e a plateia decide pelos aplausos. A animação saiu em 2017, feita pelo Morevna Project a partir do quadrinho livre do francês David Revoy.",
+   "porQueAssistir": "Depois do vídeo dá para ler esse mesmo episódio em quadrinho, em português, no site peppercarrot.com.",
+   "canal": "Morevna Project",
+   "plataforma": "Wikimedia Commons",
+   "licenca": "Creative Commons CC BY 4.0 (Morevna Project, sobre o quadrinho de David Revoy)",
+   "urlPagina": "https://commons.wikimedia.org/wiki/File:Morevna_Project_-_Pepper%26Carrot_(animated_comic)_-_Episode_6_-_The_Potion_Contest.webm",
+   "player": {
+    "tipo": "mp4",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/Morevna_Project_-_Pepper%26Carrot_%28animated_comic%29_-_Episode_6_-_The_Potion_Contest.webm/Morevna_Project_-_Pepper%26Carrot_%28animated_comic%29_-_Episode_6_-_The_Potion_Contest.webm.1080p.vp9.webm",
+    "legendaVtt": "https://commons.wikimedia.org/w/api.php?action=timedtext&title=File%3AMorevna_Project_-_Pepper%26Carrot_%28animated_comic%29_-_Episode_6_-_The_Potion_Contest.webm&lang=pt&trackformat=vtt&origin=%2A"
+   },
+   "capa": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Morevna_Project_-_Pepper%26Carrot_%28animated_comic%29_-_Episode_6_-_The_Potion_Contest.webm/1280px-seek%3D95-Morevna_Project_-_Pepper%26Carrot_%28animated_comic%29_-_Episode_6_-_The_Potion_Contest.webm.jpg"
+  },
+  {
+   "id": "big-buck-bunny",
+   "titulo": "Big Buck Bunny",
+   "tituloOriginal": "Big Buck Bunny",
+   "tipo": "curta",
+   "fileira": "Filmes e curtas",
+   "eixo": "diversao",
+   "idioma": "sem-fala",
+   "ano": 2008,
+   "duracaoMin": 10.6,
+   "classificacao": "L",
+   "motivoClassificacao": "Sem classificação oficial no Brasil. Sugestão L: comédia pastelão; os roedores matam duas borboletas e o coelho se vinga com armadilhas, em tom de desenho, sem sangue.",
+   "descricao": "Um coelho grandalhão e tranquilo sai da toca para aproveitar o dia, até que três roedores começam a atormentar os bichos da floresta. Quando eles passam dos limites, o coelho monta uma série de armadilhas para dar o troco. O filme foi feito pela Blender Foundation e estreou em Amsterdã em abril de 2008, com direção de Sacha Goedegebure.",
+   "porQueAssistir": "É uma comédia no estilo dos desenhos clássicos, e programadores costumam usar esse vídeo para testar players e formatos de vídeo.",
+   "canal": "Blender Foundation",
+   "canalId": "UCSMOQeBJ2RAnuFungnQOxLg",
+   "plataforma": "Wikimedia Commons",
+   "licenca": "Creative Commons CC BY 3.0 (Blender Foundation)",
+   "urlPagina": "https://commons.wikimedia.org/wiki/File:Big_Buck_Bunny_4K.webm",
+   "player": {
+    "tipo": "mp4",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/Big_Buck_Bunny_4K.webm/Big_Buck_Bunny_4K.webm.1080p.vp9.webm"
+   },
+   "capa": "https://i.ytimg.com/vi/aqz-KE-bpKQ/maxresdefault.jpg"
+  },
+  {
+   "id": "caminandes",
+   "titulo": "Caminandes",
+   "tituloOriginal": "Caminandes",
+   "tipo": "serie",
+   "fileira": "Filmes e curtas",
+   "eixo": "diversao",
+   "idioma": "sem-fala",
+   "ano": 2013,
+   "duracaoMin": 6.4,
+   "classificacao": "L",
+   "motivoClassificacao": "Sem classificação oficial no Brasil. Sugestão L: pastelão de desenho, com choque de cerca elétrica e briga por frutas, sem sangue nem ferimento.",
+   "descricao": "Koro, uma lhama da Patagônia, vive dando de cara com obstáculos: uma estrada no primeiro episódio, uma cerca elétrica no segundo e, no terceiro, o pinguim Oti, que disputa com Koro as últimas frutas vermelhas do inverno. São três episódios curtos lançados entre 2013 e 2016 pela Blender Foundation, inspirados nos desenhos de Chuck Jones, o diretor dos desenhos do Papa-Léguas.",
+   "porQueAssistir": "Os três episódios somam pouco mais de seis minutos e lembram os desenhos antigos de perseguição.",
+   "canal": "Blender Foundation",
+   "canalId": "UCSMOQeBJ2RAnuFungnQOxLg",
+   "plataforma": "Wikimedia Commons",
+   "licenca": "Creative Commons (Blender Foundation): episódios 1 e 3 CC BY 3.0, episódio 2 CC BY-SA 3.0",
+   "urlPagina": "https://commons.wikimedia.org/wiki/File:Caminandes_-_Short_Movie.ogv",
+   "player": {
+    "tipo": "mp4",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3d/Caminandes_-_Short_Movie.ogv/Caminandes_-_Short_Movie.ogv.1080p.vp9.webm"
+   },
+   "episodios": [
+    {
+     "titulo": "Caminandes 1: Llama Drama",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3d/Caminandes_-_Short_Movie.ogv/Caminandes_-_Short_Movie.ogv.1080p.vp9.webm",
+     "duracaoMin": 1.5
+    },
+    {
+     "titulo": "Caminandes 2: Gran Dillama",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8b/Caminandes%2C_Gran_Dillama_-_Blender_Foundation.webm/Caminandes%2C_Gran_Dillama_-_Blender_Foundation.webm.1080p.vp9.webm",
+     "duracaoMin": 2.4
+    },
+    {
+     "titulo": "Caminandes 3: Llamigos",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Caminandes_3_-_Llamigos_-_Blender_Animated_Short.webm/Caminandes_3_-_Llamigos_-_Blender_Animated_Short.webm.1080p.vp9.webm",
+     "duracaoMin": 2.5
+    }
+   ],
+   "capa": "https://i.ytimg.com/vi/SkVqJ1SGeL0/maxresdefault.jpg"
+  },
+  {
+   "id": "nosso-planeta-mares-costeiros",
+   "titulo": "Nosso Planeta: Mares costeiros",
+   "tituloOriginal": "Our Planet: Coastal Seas",
+   "tipo": "documentario",
+   "fileira": "Para descobrir",
+   "eixo": "educativo",
+   "idioma": "en",
+   "legendaPT": "pt-BR",
+   "ano": 2019,
+   "duracaoMin": 49.8,
+   "classificacao": "10",
+   "motivoClassificacao": "Sugestão do Microflix: o episódio tem predadores caçando cardumes e trechos tristes sobre corais que perdem a cor e pesca em excesso, por isso 10 e não L.",
+   "descricao": "Episódio 4 da série Nosso Planeta, lançada pela Netflix em 2019, feita pela Silverback Films com o WWF e narrada por David Attenborough. Segundo o episódio, 90% dos animais marinhos vivem perto da costa. Aparecem xaréus e raias caçando juntos um cardume de anchovas e golfinhos que cercam peixes com um anel de lama na Flórida.",
+   "porQueAssistir": "São 50 minutos de cenas filmadas no mar, da Flórida à Indonésia, que mostram como os bichos da costa dependem uns dos outros.",
+   "ressalva": "Tem caçadas entre animais e partes tristes sobre o estrago no mar.",
+   "canal": "Netflix",
+   "canalId": "UCWOA1ZGywLbqmigxE4Qlvuw",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial da Netflix, dona da série; a Netflix liberou a primeira temporada de graça no YouTube em abril de 2020",
+   "urlPagina": "https://www.youtube.com/watch?v=r9PeYPHdpNo",
+   "player": {
+    "tipo": "youtube",
+    "id": "r9PeYPHdpNo"
+   }
+  },
+  {
+   "id": "corpo-humano",
+   "titulo": "Como funciona o corpo humano",
+   "tituloOriginal": "How your digestive system works; How the heart actually pumps blood; How does your immune system work?",
+   "tipo": "serie",
+   "fileira": "Para descobrir",
+   "eixo": "educativo",
+   "idioma": "en",
+   "legendaPT": "pt-BR",
+   "ano": 2017,
+   "duracaoMin": 14.9,
+   "classificacao": "L",
+   "motivoClassificacao": "É tudo desenho animado, no tom de uma aula de ciências. Sugestão do Microflix; o TED-Ed não publica classificação.",
+   "descricao": "Três aulas animadas do TED-Ed, com uns 5 minutos cada. A primeira segue a comida pelo sistema digestivo, que tem dez órgãos e nove metros de comprimento. As outras duas mostram o coração bombeando o sangue e o sistema imunológico, a rede de células que defende o corpo de bactérias e vírus.",
+   "porQueAssistir": "Em 15 minutos dá para entender o caminho da comida dentro do corpo e o que acontece quando um vírus entra.",
+   "canal": "TED-Ed",
+   "canalId": "UCsooa4yRKGN_zEE8iknghZA",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial do canal TED-Ed",
+   "urlPagina": "https://www.youtube.com/watch?v=Og5xAdC8EUI",
+   "player": {
+    "tipo": "youtube",
+    "id": "Og5xAdC8EUI"
+   },
+   "episodios": [
+    {
+     "titulo": "Como funciona o sistema digestivo (Emma Bryce)",
+     "youtubeId": "Og5xAdC8EUI",
+     "duracaoMin": 5
+    },
+    {
+     "titulo": "Como o coração bombeia o sangue (Edmond Hui)",
+     "youtubeId": "ruM4Xxhx32U",
+     "duracaoMin": 4.5
+    },
+    {
+     "titulo": "Como funciona o sistema imunológico (Emma Bryce)",
+     "youtubeId": "PSRJfaAYkW4",
+     "duracaoMin": 5.4
+    }
+   ]
+  },
+  {
+   "id": "china-antiga",
+   "titulo": "China antiga e a Rota da Seda",
+   "tituloOriginal": "The incredible history of China's terracotta warriors; What makes the Great Wall of China so extraordinary; The Silk Road",
+   "tipo": "serie",
+   "fileira": "Para descobrir",
+   "eixo": "educativo",
+   "idioma": "en",
+   "legendaPT": "pt-BR",
+   "ano": 2015,
+   "duracaoMin": 14.3,
+   "classificacao": "10",
+   "motivoClassificacao": "As aulas citam guerras e o trabalho forçado usado na construção da muralha, por isso a sugestão do Microflix é 10. É desenho animado de aula, e o TED-Ed não publica classificação.",
+   "descricao": "Três aulas animadas do TED-Ed sobre a história antiga da China. Em 1974, agricultores que cavavam um poço acharam mais de 8 mil soldados de barro em tamanho natural em volta do túmulo do imperador Qin Shi Huang. As outras aulas contam como foi erguida a Grande Muralha, com cerca de 21 mil quilômetros, e como a Rota da Seda levava mercadorias e ideias por uns 8 mil quilômetros.",
+   "porQueAssistir": "São 14 minutos sobre a história dos soldados de barro e da muralha que aparecem em tantos livros sobre a China.",
+   "canal": "TED-Ed",
+   "canalId": "UCsooa4yRKGN_zEE8iknghZA",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial do canal TED-Ed",
+   "urlPagina": "https://www.youtube.com/watch?v=mP5p4QbvPtc",
+   "player": {
+    "tipo": "youtube",
+    "id": "mP5p4QbvPtc"
+   },
+   "episodios": [
+    {
+     "titulo": "A história dos guerreiros de terracota",
+     "youtubeId": "mP5p4QbvPtc",
+     "duracaoMin": 4.5
+    },
+    {
+     "titulo": "A Grande Muralha da China",
+     "youtubeId": "23oHqNEqRyo",
+     "duracaoMin": 4.5
+    },
+    {
+     "titulo": "A Rota da Seda",
+     "youtubeId": "vn3e37VWc0k",
+     "duracaoMin": 5.3
+    }
+   ]
+  },
+  {
+   "id": "pixar-in-a-box",
+   "titulo": "Pixar in a Box: como se faz animação",
+   "tituloOriginal": "Pixar in a Box",
+   "tipo": "serie",
+   "fileira": "Para descobrir",
+   "eixo": "educativo",
+   "idioma": "pt",
+   "ano": 2016,
+   "duracaoMin": 19.5,
+   "classificacao": "L",
+   "motivoClassificacao": "Aulas curtas sobre como se faz um filme de animação, com exemplos tirados de filmes da Pixar. Sugestão do Microflix.",
+   "descricao": "Curso que a Pixar Animation Studios fez com a Khan Academy, publicado em 2016 pela Khan Academy Brasil com áudio em português. Os vídeos explicam o que é animação e o que é uma pose-chave, mostram a técnica straight ahead para animar quadro a quadro e o efeito de esmagar e deformar objetos para dar vida a um personagem. Os dois últimos falam de renderização e da carreira do animador Alonso Martinez na Pixar.",
+   "porQueAssistir": "Depois dos vídeos dá para testar em casa, com papel e lápis, a técnica de animar quadro a quadro.",
+   "canal": "Khan Academy Brasil",
+   "canalId": "UCXj2oSzwg6G0iBjKg33joMQ",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial da Khan Academy Brasil; curso feito pela Pixar Animation Studios com a Khan Academy",
+   "urlPagina": "https://www.youtube.com/watch?v=a-Y-aowopwE",
+   "player": {
+    "tipo": "youtube",
+    "id": "a-Y-aowopwE"
+   },
+   "episodios": [
+    {
+     "titulo": "Comece aqui!",
+     "youtubeId": "a-Y-aowopwE",
+     "duracaoMin": 5.3
+    },
+    {
+     "titulo": "Introdução à animação",
+     "youtubeId": "9dc_91mjp3I",
+     "duracaoMin": 3
+    },
+    {
+     "titulo": "Animação com técnica straight ahead",
+     "youtubeId": "P_wPQpGWpCs",
+     "duracaoMin": 2.1
+    },
+    {
+     "titulo": "Esmagar e deformar",
+     "youtubeId": "gYEsE-zZtrg",
+     "duracaoMin": 1.8
+    },
+    {
+     "titulo": "Introdução à renderização",
+     "youtubeId": "RbW_ZxbbZd0",
+     "duracaoMin": 2.2
+    },
+    {
+     "titulo": "Conhecendo Alonso Martinez",
+     "youtubeId": "N8xzud5O_zY",
+     "duracaoMin": 5.1
+    }
+   ]
+  },
+  {
+   "id": "musica-classica",
+   "titulo": "Primeiros passos na música clássica",
+   "tituloOriginal": "Primeiros passos na música clássica: para quem ouve e para quem quer ouvir",
+   "tipo": "serie",
+   "fileira": "Para descobrir",
+   "eixo": "educativo",
+   "idioma": "pt",
+   "ano": 2015,
+   "duracaoMin": 54.4,
+   "classificacao": "L",
+   "motivoClassificacao": "Concerto feito para estudantes de escolas de Minas Gerais, só com música e explicação. Sugestão do Microflix.",
+   "descricao": "Concerto didático da Orquestra Filarmônica de Minas Gerais, gravado entre 2013 e 2015 para as escolas do estado e publicado em três partes em 2021. O maestro Marcos Arakaki rege, e o percussionista Werner Silveira conta histórias e dá exemplos entre as músicas. A primeira parte é toda do Guia orquestral para jovens, que Benjamin Britten compôs em 1946 para apresentar os instrumentos da orquestra.",
+   "porQueAssistir": "Na peça de Britten cada grupo de instrumentos toca o tema sozinho, o que ajuda a reconhecer de ouvido o som de cada um.",
+   "canal": "Orquestra Filarmônica de Minas Gerais",
+   "canalId": "UC3L27nOLEOTC7CsNOUr-a9A",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial da Orquestra Filarmônica de Minas Gerais",
+   "urlPagina": "https://www.youtube.com/watch?v=rsEfbDcI6Ws",
+   "player": {
+    "tipo": "youtube",
+    "id": "rsEfbDcI6Ws"
+   },
+   "episodios": [
+    {
+     "titulo": "Parte 1: Benjamin Britten",
+     "youtubeId": "rsEfbDcI6Ws",
+     "duracaoMin": 28
+    },
+    {
+     "titulo": "Parte 2: Tchaikovsky e Gounod",
+     "youtubeId": "mTCAm82-c7A",
+     "duracaoMin": 15
+    },
+    {
+     "titulo": "Parte 3: Copland e Fernandez",
+     "youtubeId": "Pit_boR0L-8",
+     "duracaoMin": 11.4
+    }
+   ]
+  },
+  {
+   "id": "blocos-e-pi",
+   "titulo": "Blocos que calculam o número pi",
+   "tituloOriginal": "The most unexpected answer to a counting puzzle (e continuações)",
+   "tipo": "serie",
+   "fileira": "Para descobrir",
+   "eixo": "educativo",
+   "idioma": "en",
+   "legendaPT": "pt-BR",
+   "ano": 2019,
+   "duracaoMin": 46.0,
+   "classificacao": "L",
+   "motivoClassificacao": "Aula de matemática com animação de blocos e gráficos, sem nada impróprio. Sugestão do Microflix.",
+   "descricao": "Grant Sanderson, criador do canal 3Blue1Brown, mostra dois blocos deslizando num chão sem atrito, com o menor entre o maior e uma parede. Se o bloco grande tem 100 vezes a massa do pequeno, eles batem 31 vezes; com 10 mil vezes, são 314 batidas, os primeiros dígitos de pi. Os dois vídeos seguintes explicam por que isso acontece, e o último compara os blocos a um raio de luz.",
+   "porQueAssistir": "O pi aparece numa contagem de batidas, sem nenhum círculo na cena, e o primeiro vídeo tem só 5 minutos.",
+   "ressalva": "Do segundo vídeo em diante a matemática fica mais difícil, de ensino médio.",
+   "canal": "3Blue1Brown",
+   "canalId": "UCYO_jab_esuFRV4b17AJtAw",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial do canal 3Blue1Brown, de Grant Sanderson",
+   "urlPagina": "https://www.youtube.com/watch?v=HEfHFsfGXjs",
+   "player": {
+    "tipo": "youtube",
+    "id": "HEfHFsfGXjs"
+   },
+   "episodios": [
+    {
+     "titulo": "A resposta mais inesperada para um problema de contagem",
+     "youtubeId": "HEfHFsfGXjs",
+     "duracaoMin": 5.2
+    },
+    {
+     "titulo": "Por que blocos que colidem calculam pi (versão de 2025)",
+     "youtubeId": "6dTyOl1fmDo",
+     "duracaoMin": 26.1
+    },
+    {
+     "titulo": "Como os blocos agem como um raio de luz para calcular pi",
+     "youtubeId": "brU5yLm9DZM",
+     "duracaoMin": 14.7
+    }
+   ]
+  },
+  {
+   "id": "como-funcionam-os-computadores",
+   "titulo": "Como funcionam os computadores",
+   "tituloOriginal": "How Computers Work",
+   "tipo": "serie",
+   "fileira": "Para descobrir",
+   "eixo": "educativo",
+   "idioma": "en",
+   "legendaPT": "pt-BR",
+   "ano": 2018,
+   "duracaoMin": 26.9,
+   "classificacao": "L",
+   "motivoClassificacao": "Vídeos educativos curtos sobre computação. Sugestão do Microflix.",
+   "descricao": "Série de seis vídeos curtos que a Code.org, organização sem fins lucrativos, lançou em 30 de janeiro de 2018, com abertura de Bill Gates, fundador da Microsoft. Os episódios mostram como o computador representa números, palavras, imagens e sons com 0 e 1, passam pelos circuitos, pelo processador e pela memória e terminam em como hardware e software trabalham juntos em jogos e aplicativos.",
+   "porQueAssistir": "Quem já montou circuito de redstone no Minecraft vai achar familiar o episódio sobre circuitos e lógica.",
+   "canal": "Code.org (canal hoje chamado CodeAI)",
+   "canalId": "UCJyEBMU1xVP2be1-AoGS1BA",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial da Code.org, organização sem fins lucrativos de ensino de computação",
+   "urlPagina": "https://www.youtube.com/playlist?list=PLzdnOPI1iJNcsRwJhvksEo1tJqjIqWbN-",
+   "player": {
+    "tipo": "youtube",
+    "id": "OAx_6-wdslM"
+   },
+   "episodios": [
+    {
+     "titulo": "Apresentação, com Bill Gates",
+     "youtubeId": "OAx_6-wdslM",
+     "duracaoMin": 1.3
+    },
+    {
+     "titulo": "O que faz de um computador um computador",
+     "youtubeId": "mCq8-xTH7jA",
+     "duracaoMin": 5.2
+    },
+    {
+     "titulo": "Binário e dados",
+     "youtubeId": "USCBCmwMCDA",
+     "duracaoMin": 6
+    },
+    {
+     "titulo": "Circuitos e lógica",
+     "youtubeId": "ZoqMiFKspAA",
+     "duracaoMin": 4.7
+    },
+    {
+     "titulo": "Processador, memória, entrada e saída",
+     "youtubeId": "DKGZlaPlVLY",
+     "duracaoMin": 4.3
+    },
+    {
+     "titulo": "Hardware e software",
+     "youtubeId": "xnyFYiK2rSY",
+     "duracaoMin": 5.4
+    }
+   ]
+  },
+  {
+   "id": "nossos-biomas",
+   "titulo": "Nossos Biomas",
+   "tituloOriginal": "Nossos Biomas",
+   "tipo": "serie",
+   "fileira": "Para descobrir",
+   "eixo": "educativo",
+   "idioma": "pt",
+   "ano": 2022,
+   "duracaoMin": 151.7,
+   "classificacao": "L",
+   "motivoClassificacao": "Documentário de natureza e cultura da TV pública, sem cenas fortes nas descrições. Sugestão do Microflix, porque a página da TV Brasil não informa classificação.",
+   "descricao": "Série da TV Brasil publicada em 2022, com um episódio de uns 25 minutos para cada bioma do país, da Mata Atlântica ao Cerrado. Fala da natureza e também das pessoas e da cultura de cada região. No episódio do Pantanal, por exemplo, aparece que a região tem 210 mil quilômetros quadrados e cerca de 3,5 mil espécies de plantas.",
+   "porQueAssistir": "Depois dos seis episódios, cada parte do mapa do Brasil ganha paisagem e bichos.",
+   "canal": "TV Brasil",
+   "canalId": "UCSv9d0kQegylHWpP83jWSQg",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial da TV Brasil, emissora pública da EBC",
+   "urlPagina": "https://www.youtube.com/playlist?list=PLuP7SQK7lt1brl-Tu885ujGXWt0acqbAz",
+   "player": {
+    "tipo": "youtube",
+    "id": "TCeRkEk1KRA"
+   },
+   "episodios": [
+    {
+     "titulo": "Mata Atlântica: a floresta mais antiga da América do Sul",
+     "youtubeId": "TCeRkEk1KRA",
+     "duracaoMin": 25.3
+    },
+    {
+     "titulo": "Caatinga: coração do sertão nordestino",
+     "youtubeId": "xjRWPFhxzlA",
+     "duracaoMin": 24.7
+    },
+    {
+     "titulo": "Pampa: a natureza selvagem e o homem vivendo em harmonia",
+     "youtubeId": "At-1KfyUwBo",
+     "duracaoMin": 26.1
+    },
+    {
+     "titulo": "Amazônia: riqueza da natureza selvagem",
+     "youtubeId": "_MyLk4v-Oj0",
+     "duracaoMin": 26.4
+    },
+    {
+     "titulo": "Pantanal: a maior área úmida continental do planeta",
+     "youtubeId": "FQdBcA1rK5Q",
+     "duracaoMin": 25.2
+    },
+    {
+     "titulo": "Cerrado: a savana mais rica do mundo",
+     "youtubeId": "zg2xnELQ6H0",
+     "duracaoMin": 24
+    }
+   ]
+  },
+  {
+   "id": "um-pe-de-que",
+   "titulo": "Um Pé de Quê?: seis árvores do Brasil",
+   "tituloOriginal": "Um Pé de Quê?",
+   "tipo": "serie",
+   "fileira": "Para descobrir",
+   "eixo": "educativo",
+   "idioma": "pt",
+   "duracaoMin": 109.3,
+   "classificacao": "10",
+   "motivoClassificacao": "Programa educativo de TV sobre plantas e história. Sugestão do Microflix: 10, porque episódios como o do pau-brasil e o do jacarandá tratam da exploração colonial.",
+   "descricao": "Programa de TV dirigido por Estevão Ciavatta e apresentado por Regina Casé, exibido no Canal Futura, com episódios sobre dezenas de espécies de árvores. Esta seleção tem seis: pau-brasil, jacarandá, mangue, goiabeira, coqueiro e bougainville. No episódio do mangue, aparece que 75% dos peixes do litoral dependem dele, direta ou indiretamente.",
+   "porQueAssistir": "Cada episódio junta uma árvore com a história do Brasil, e depois dele a goiabeira e a buganvília da rua passam a ter história.",
+   "canal": "Um Pé de Quê?",
+   "canalId": "UCvjnf8vl7NnpuskSY6s8beg",
+   "plataforma": "YouTube",
+   "licenca": "Upload do canal do programa (@umpedeque-oficial), produzido pela Pindorama Filmes; titularidade conferida só pelo nome do canal e pelo conteúdo",
+   "urlPagina": "https://www.youtube.com/watch?v=dL-8aeITous",
+   "player": {
+    "tipo": "youtube",
+    "id": "dL-8aeITous"
+   },
+   "episodios": [
+    {
+     "titulo": "Pau-Brasil",
+     "youtubeId": "dL-8aeITous",
+     "duracaoMin": 17.9
+    },
+    {
+     "titulo": "Jacarandá",
+     "youtubeId": "1nRMtTzc_58",
+     "duracaoMin": 17.1
+    },
+    {
+     "titulo": "Mangue",
+     "youtubeId": "iecJ4iKY2PM",
+     "duracaoMin": 20.3
+    },
+    {
+     "titulo": "Goiabeira",
+     "youtubeId": "r7pgrnj7xmo",
+     "duracaoMin": 17.7
+    },
+    {
+     "titulo": "Coqueiro",
+     "youtubeId": "znDSIPYfeyk",
+     "duracaoMin": 19.4
+    },
+    {
+     "titulo": "Bougainville",
+     "youtubeId": "m8QR9EsO7zM",
+     "duracaoMin": 16.9
+    }
+   ]
+  },
+  {
+   "id": "historia-do-xadrez",
+   "titulo": "Uma breve história do xadrez",
+   "tituloOriginal": "A brief history of chess",
+   "tipo": "video",
+   "fileira": "Para descobrir",
+   "eixo": "educativo",
+   "idioma": "en",
+   "legendaPT": "pt-BR",
+   "ano": 2019,
+   "duracaoMin": 5.7,
+   "classificacao": "L",
+   "motivoClassificacao": "Desenho animado de aula; a guerra aparece só como comparação com o jogo. Sugestão do Microflix.",
+   "descricao": "Aula animada do TED-Ed, de 2019, escrita por Alex Gendler. Começa no chaturanga, jogado na Índia no século 7, passa pela Pérsia e pela Europa e termina nos programas de computador que jogam xadrez hoje. No caminho aparecem a Partida Imortal, de 1851, e a época da Guerra Fria.",
+   "porQueAssistir": "Em menos de 6 minutos o vídeo conta de onde vieram as peças do tabuleiro.",
+   "canal": "TED-Ed",
+   "canalId": "UCsooa4yRKGN_zEE8iknghZA",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial do canal TED-Ed",
+   "urlPagina": "https://www.youtube.com/watch?v=YeB-1F-UKO0",
+   "player": {
+    "tipo": "youtube",
+    "id": "YeB-1F-UKO0"
+   }
+  },
+  {
+   "id": "minecraft-tech",
+   "titulo": "Minecraft Tech",
+   "tituloOriginal": "Minecraft Tech",
+   "tipo": "serie",
+   "fileira": "Minecraft e Rocket League",
+   "eixo": "educativo",
+   "idioma": "pt",
+   "ano": 2023,
+   "duracaoMin": 117.6,
+   "classificacao": "L",
+   "motivoClassificacao": "L: aulas montadas no jogo, sem lutas ou cenas fortes. Sem classificação oficial; é sugestão do Microflix.",
+   "descricao": "Série de nove aulas do canal Professor Minecraft, publicadas entre 2023 e 2025, que monta com redstone as peças que fazem um computador funcionar. A primeira aula constrói as portas lógicas OR, NOT, AND e XOR e mostra uma calculadora feita com elas. As seguintes passam por soma e subtração em binário, conversão entre binário e decimal, comunicação serial e circuitos flip-flop. A última usa o problema do jantar dos filósofos para explicar por que dois programas podem travar esperando um pelo outro.",
+   "porQueAssistir": "Cada aula pega uma ideia de dentro do computador e monta com ela um circuito para copiar no próprio mundo.",
+   "canal": "Professor Minecraft",
+   "canalId": "UCYdPKwBZG53mihCuz52gg2A",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial do canal Professor Minecraft",
+   "urlPagina": "https://www.youtube.com/playlist?list=PLDCo-GxU3C9EzXMqknmiRRRHF8MbpLHOO",
+   "player": {
+    "tipo": "youtube",
+    "id": "qj1fzL-Nr8U"
+   },
+   "episodios": [
+    {
+     "titulo": "01. Como Funcionam as Portas Lógicas",
+     "youtubeId": "qj1fzL-Nr8U",
+     "duracaoMin": 14.3
+    },
+    {
+     "titulo": "02. Somando Números Binários",
+     "youtubeId": "2-uXlIgPn6w",
+     "duracaoMin": 18.1
+    },
+    {
+     "titulo": "03. Transformação de Binário para Decimal",
+     "youtubeId": "Q2Cp0anIaDQ",
+     "duracaoMin": 12
+    },
+    {
+     "titulo": "04. Transformação de Decimal para Binário",
+     "youtubeId": "bRGnzN3BZfY",
+     "duracaoMin": 13.6
+    },
+    {
+     "titulo": "05. Como funciona a comunicação serial",
+     "youtubeId": "TNb6DtOS4UM",
+     "duracaoMin": 12.4
+    },
+    {
+     "titulo": "06. Subtraindo Números Binários",
+     "youtubeId": "QfBwny734Gs",
+     "duracaoMin": 15.3
+    },
+    {
+     "titulo": "07. Circuitos Flip Flop",
+     "youtubeId": "AxsiyqqTn4o",
+     "duracaoMin": 9.7
+    },
+    {
+     "titulo": "08. O Bug dos Barcos",
+     "youtubeId": "k7yzCUVsBrc",
+     "duracaoMin": 12.1
+    },
+    {
+     "titulo": "09. O problema do jantar dos filósofos",
+     "youtubeId": "I8-3PhKYB9U",
+     "duracaoMin": 10.1
+    }
+   ]
+  },
+  {
+   "id": "computador-no-minecraft",
+   "titulo": "Como construir um computador do zero no Minecraft",
+   "tituloOriginal": "Como Construir um Computador do Zero no Minecraft",
+   "tipo": "video",
+   "fileira": "Minecraft e Rocket League",
+   "eixo": "educativo",
+   "idioma": "pt",
+   "ano": 2025,
+   "duracaoMin": 33.8,
+   "classificacao": "L",
+   "motivoClassificacao": "L: explicação com imagens do jogo, tabelas e fotos de computadores, sem violência. Sugestão do Microflix.",
+   "descricao": "Vídeo de 34 minutos do canal Plankirio, publicado em dezembro de 2025, que começa no bit (redstone apagada vale 0, acesa vale 1) e sobe até a memória e o processador, tudo montado com repetidores, comparadores e outras peças de redstone. No caminho aparecem as tabelas-verdade das portas lógicas. Máquinas assim já rodaram Tetris e até um Minecraft dentro do Minecraft.",
+   "porQueAssistir": "Depois do vídeo, dá para montar a primeira porta lógica no próprio mundo e saber onde ela fica num computador de verdade.",
+   "canal": "Plankirio",
+   "canalId": "UCfMuqcr5ZkeN6q1-FKDBnyQ",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial do canal Plankirio",
+   "urlPagina": "https://www.youtube.com/watch?v=Hh-R1FOeTDI",
+   "player": {
+    "tipo": "youtube",
+    "id": "Hh-R1FOeTDI"
+   }
+  },
+  {
+   "id": "fundamentos-do-rocket-league",
+   "titulo": "Fundamentos do Rocket League",
+   "tituloOriginal": "Fundamentos do Rocket League",
+   "tipo": "serie",
+   "fileira": "Minecraft e Rocket League",
+   "eixo": "educativo",
+   "idioma": "pt",
+   "ano": 2026,
+   "duracaoMin": 191.4,
+   "classificacao": "L",
+   "motivoClassificacao": "L: demonstrações no treino livre do jogo, sem violência. Sugestão do Microflix.",
+   "descricao": "Curso de 41 vídeos curtos, de 2 a 9 minutos, que Luan Martins publicou em outubro de 2026 no canal muanlartins, separado pelos ranks do jogo: Unranked, Bronze, Prata, Ouro e Platina. Começa pelos controles e pela câmera, passa por drift, flips, kickoff e rotação do time e chega ao aéreo alto e à previsão do quique da bola nos ranks mais altos. Cada técnica é demonstrada no treino livre.",
+   "porQueAssistir": "Dá para seguir na ordem, um rank por vez, e testar cada técnica no jogo logo depois do vídeo.",
+   "canal": "muanlartins",
+   "canalId": "UCfWPHWJtP-BFdYyPfkoSnHA",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial do autor (canal muanlartins)",
+   "urlPagina": "https://www.youtube.com/playlist?list=PLPogzmM3roPc",
+   "player": {
+    "tipo": "youtube",
+    "id": "DaY857Usc80"
+   },
+   "episodios": [
+    {
+     "titulo": "Introdução",
+     "youtubeId": "DaY857Usc80",
+     "duracaoMin": 6
+    },
+    {
+     "titulo": "Unranked: Inputs do jogo",
+     "youtubeId": "CqVSrP8xpWY",
+     "duracaoMin": 4.6
+    },
+    {
+     "titulo": "Unranked: Cam e ball cam",
+     "youtubeId": "PNP61KM7qzQ",
+     "duracaoMin": 2.3
+    },
+    {
+     "titulo": "Unranked: Acertando a bola",
+     "youtubeId": "AxYFpTHxbCI",
+     "duracaoMin": 4.4
+    },
+    {
+     "titulo": "Bronze: Curvas e drift",
+     "youtubeId": "KKEysfqVmJc",
+     "duracaoMin": 3.1
+    },
+    {
+     "titulo": "Bronze: Supersônico",
+     "youtubeId": "70X-CuagXyU",
+     "duracaoMin": 3.9
+    },
+    {
+     "titulo": "Bronze: Pulo e pulo duplo",
+     "youtubeId": "HGojw1M5xkc",
+     "duracaoMin": 4
+    },
+    {
+     "titulo": "Bronze: Tipos de flip",
+     "youtubeId": "h8Ex7C1UzfU",
+     "duracaoMin": 3.9
+    },
+    {
+     "titulo": "Bronze: Caindo sobre as rodas",
+     "youtubeId": "zgCakk4rHNE",
+     "duracaoMin": 4.8
+    },
+    {
+     "titulo": "Bronze: Chutando no gol",
+     "youtubeId": "_1jLJt251M0",
+     "duracaoMin": 4.1
+    },
+    {
+     "titulo": "Bronze: Conduzindo a bola",
+     "youtubeId": "mDhbIHsv484",
+     "duracaoMin": 3.5
+    },
+    {
+     "titulo": "Bronze: Logística do kickoff",
+     "youtubeId": "WeE5CMc3zJs",
+     "duracaoMin": 2.8
+    },
+    {
+     "titulo": "Bronze: Ataque e defesa",
+     "youtubeId": "tSig4cJOXiI",
+     "duracaoMin": 5.3
+    },
+    {
+     "titulo": "Bronze: Não pule sempre",
+     "youtubeId": "A0j1jBHi-Ew",
+     "duracaoMin": 3.6
+    },
+    {
+     "titulo": "Bronze: Entendendo as posições",
+     "youtubeId": "20wfB43uHJI",
+     "duracaoMin": 4.2
+    },
+    {
+     "titulo": "Bronze: Conceito de rotação",
+     "youtubeId": "VCKhqjZd_4E",
+     "duracaoMin": 4.8
+    },
+    {
+     "titulo": "Bronze: Exercendo o autocontrole",
+     "youtubeId": "fvESkRwYGQU",
+     "duracaoMin": 3.4
+    },
+    {
+     "titulo": "Bronze: Onde pegar boost",
+     "youtubeId": "QcbiAMvP7KM",
+     "duracaoMin": 3.3
+    },
+    {
+     "titulo": "Bronze: O ataque mais comum",
+     "youtubeId": "M_7GaoHF-Ww",
+     "duracaoMin": 3.7
+    },
+    {
+     "titulo": "Bronze: Aprendendo os quick chats",
+     "youtubeId": "oZnp5biHSow",
+     "duracaoMin": 2.8
+    },
+    {
+     "titulo": "Prata: Deadzone e sensibilidade",
+     "youtubeId": "xh07eF7Y7tw",
+     "duracaoMin": 3.6
+    },
+    {
+     "titulo": "Prata: Paredes",
+     "youtubeId": "LwQXFN5BvZg",
+     "duracaoMin": 9
+    },
+    {
+     "titulo": "Prata: Flip cancel",
+     "youtubeId": "OaXwxHqUHjA",
+     "duracaoMin": 3.2
+    },
+    {
+     "titulo": "Prata: Aéreo baixo",
+     "youtubeId": "aUh-jb0j6TQ",
+     "duracaoMin": 5.3
+    },
+    {
+     "titulo": "Prata: Chute forte",
+     "youtubeId": "FEQ2LAd1ino",
+     "duracaoMin": 8.5
+    },
+    {
+     "titulo": "Prata: Chutes da parede",
+     "youtubeId": "6-5wW1KsJ4c",
+     "duracaoMin": 4.3
+    },
+    {
+     "titulo": "Prata: Amortecendo a bola",
+     "youtubeId": "gNxUPo9Vn_Q",
+     "duracaoMin": 3.6
+    },
+    {
+     "titulo": "Prata: Observando os jogadores",
+     "youtubeId": "cyA_8mvoGqc",
+     "duracaoMin": 8.9
+    },
+    {
+     "titulo": "Prata: Avanço e recuo",
+     "youtubeId": "GgKo3hmHelY",
+     "duracaoMin": 8.5
+    },
+    {
+     "titulo": "Prata: Voltando pelo segundo pau",
+     "youtubeId": "a8SxTWoWzG8",
+     "duracaoMin": 5.2
+    },
+    {
+     "titulo": "Prata: Quando fazer o challenge",
+     "youtubeId": "HmYt-PMX9NI",
+     "duracaoMin": 3.9
+    },
+    {
+     "titulo": "Prata: Tirando a bola",
+     "youtubeId": "lSWaqcThmzk",
+     "duracaoMin": 5.9
+    },
+    {
+     "titulo": "Prata: Demolição e bump",
+     "youtubeId": "NAbbaWE4QzE",
+     "duracaoMin": 3.6
+    },
+    {
+     "titulo": "Ouro: Teclado e mouse ou controle",
+     "youtubeId": "LR_autfcOvI",
+     "duracaoMin": 2.8
+    },
+    {
+     "titulo": "Ouro: Mantendo a velocidade",
+     "youtubeId": "o-JWolu3iAM",
+     "duracaoMin": 2.8
+    },
+    {
+     "titulo": "Ouro: Half flip",
+     "youtubeId": "aYQ9-d1bhGM",
+     "duracaoMin": 4.7
+    },
+    {
+     "titulo": "Ouro: Aéreo alto",
+     "youtubeId": "C8Tjtgk2bys",
+     "duracaoMin": 7.5
+    },
+    {
+     "titulo": "Ouro: Compensando a posição do time",
+     "youtubeId": "BQPnK-7p8fQ",
+     "duracaoMin": 7.9
+    },
+    {
+     "titulo": "Ouro: Rebotes",
+     "youtubeId": "krG2KOIY1WA",
+     "duracaoMin": 3.9
+    },
+    {
+     "titulo": "Platina: Shadow defense",
+     "youtubeId": "KnOiDnlEPpM",
+     "duracaoMin": 3
+    },
+    {
+     "titulo": "Platina: Previsão de bounce",
+     "youtubeId": "eswE5M_wBis",
+     "duracaoMin": 6.8
+    }
+   ]
+  },
+  {
+   "id": "minecraft-documentario-de-vida-selvagem",
+   "titulo": "E se o Minecraft fosse um documentário de vida selvagem?",
+   "tituloOriginal": "E SE O MINECRAFT FOSSE UM DOCUMENTÁRIO DE VIDA SELVAGEM?",
+   "tipo": "video",
+   "fileira": "Minecraft e Rocket League",
+   "eixo": "diversao",
+   "idioma": "pt",
+   "ano": 2026,
+   "duracaoMin": 15.8,
+   "classificacao": "10",
+   "motivoClassificacao": "10: há cenas de caça entre os bichos do jogo, contadas como num documentário de natureza; nada realista. Sugestão do Microflix.",
+   "descricao": "Paródia de 16 minutos, publicada em maio de 2026 pelo canal Whiskky, que filma os animais do Minecraft como se fosse um documentário de natureza da TV. O próprio autor chama o vídeo de mockumentary e diz que quis um estilo mais cinematográfico.",
+   "porQueAssistir": "Usa o jeito dos documentários de natureza para observar os bichos do jogo, e pode puxar a vontade de ver documentários de verdade.",
+   "canal": "Whiskky",
+   "canalId": "UCowPOzFxM3YI3LGgPOVVDaQ",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial do canal Whiskky",
+   "urlPagina": "https://www.youtube.com/watch?v=W9pXd39Kovc",
+   "player": {
+    "tipo": "youtube",
+    "id": "W9pXd39Kovc"
+   }
+  },
+  {
+   "id": "canal-manyacraft",
+   "titulo": "MANYACRAFT",
+   "tituloOriginal": "MANYACRAFT",
+   "tipo": "canal",
+   "fileira": "Canais",
+   "eixo": "educativo",
+   "idioma": "pt",
+   "duracaoMin": 37,
+   "classificacao": "L",
+   "motivoClassificacao": "L: construção no modo criativo, sem lutas. Sugestão do Microflix.",
+   "descricao": "Canal brasileiro de construção no Minecraft. Os 15 vídeos longos mais recentes, de novembro de 2025 a setembro de 2026, ensinam a montar casas modernas e mansões passo a passo, além de uma casa de madeira para o começo do survival. As descrições trazem capítulos com introdução, material e layout e tutorial.",
+   "porQueAssistir": "Ensina a planejar uma construção com lista de materiais e layout antes de colocar o primeiro bloco.",
+   "ressalva": "Alguns tutoriais passam de uma hora: dá para parar e continuar depois.",
+   "canal": "MANYACRAFT",
+   "canalId": "UCTugjE76W-cSLohpbB_NRLA",
+   "plataforma": "YouTube",
+   "licenca": "Uploads oficiais do canal MANYACRAFT",
+   "urlPagina": "https://www.youtube.com/@MANYACRAFT",
+   "player": {
+    "tipo": "canal-youtube"
+   },
+   "capa": "https://i.ytimg.com/vi/KRa5DSmsstI/mqdefault.jpg",
+   "canalAutor": "MANYACRAFT"
+  }
+ ]
+}

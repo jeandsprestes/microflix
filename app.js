@@ -42,7 +42,7 @@ function fracao(k) { const p = mem.progresso[k]; return p && p.d ? Math.min(1, p
 function videos(item) {
   if (item.episodios && item.episodios.length) {
     return item.episodios.map((ep, i) => ({
-      titulo: ep.titulo, n: i + 1, duracaoMin: ep.duracaoMin,
+      titulo: ep.titulo, n: i + 1, duracaoMin: ep.duracaoMin, legendaTraduzida: ep.legendaTraduzida || '',
       player: ep.youtubeId ? { tipo: 'youtube', id: ep.youtubeId }
         : ep.vimeoId ? { tipo: 'vimeo', id: ep.vimeoId }
           : { tipo: 'mp4', src: ep.src, legendaVtt: ep.legendaVtt },
@@ -84,13 +84,19 @@ function duracao(min) {
   return r ? `${h} h ${r} min` : `${h} h`;
 }
 function dataBR(iso) { const [a, m, d] = String(iso || '').split('-'); return a && m && d ? `${d}/${m}/${a}` : ''; }
-const IDIOMA = { pt: 'Português', 'sem-fala': 'Sem falas', outro: 'Outro idioma' };
-const IDIOMA_CURTO = { pt: 'PT', 'sem-fala': 'SEM FALAS' };
-const temLegenda = item => !!(item.legendaPT || (item.player && item.player.legendaVtt));
+// pt-auto: vídeo em inglês em que o YouTube toca uma voz em português gerada automaticamente.
+const IDIOMA = { pt: 'Português', 'pt-auto': 'Português, com voz gerada automaticamente', 'sem-fala': 'Sem falas', outro: 'Outro idioma' };
+const IDIOMA_CURTO = { pt: 'PT', 'pt-auto': 'PT', 'sem-fala': 'SEM FALAS' };
+// Legenda traduzida: o vídeo não tem legenda em português feita por pessoa, e o player do YouTube traduz a legenda
+// em inglês (feita por pessoa) para português.
+const temTraducao = item => !!(item.legendaTraduzida || (item.episodios || []).some(ep => ep.legendaTraduzida));
+const temLegenda = item => !!(item.legendaPT || (item.player && item.player.legendaVtt) || temTraducao(item));
 function idiomaLongo(item) {
   if (item.idioma !== 'en') return IDIOMA[item.idioma] || '';
   if (!temLegenda(item)) return 'Inglês';
-  return item.tipo === 'canal' ? 'Inglês, com legenda em português nos vídeos que têm' : 'Inglês com legenda em português';
+  if (item.tipo === 'canal') return 'Inglês, com legenda em português nos vídeos que têm';
+  if (!item.legendaPT && !(item.player && item.player.legendaVtt)) return 'Inglês com legenda traduzida automaticamente';
+  return 'Inglês com legenda em português';
 }
 const idiomaCurto = item => item.idioma === 'en' ? (temLegenda(item) ? 'LEG' : 'EN') : (IDIOMA_CURTO[item.idioma] || '');
 const TIPO = { filme: 'Filme', curta: 'Curta', documentario: 'Documentário', serie: 'Série', video: 'Vídeo', canal: 'Canal' };
@@ -332,11 +338,15 @@ async function listaPublicada(canalId) {
   if (!vids || !vids.length) throw new Error('canal sem lista publicada');
   return vids;
 }
+let ultimaListaPublicada = false;
 async function buscarCanal(canalId) {
+  ultimaListaPublicada = false;
   if (modoLocal) {
     try { return await buscarCanalAoVivo(canalId); } catch (e) { /* tenta a lista publicada */ }
   }
-  return listaPublicada(canalId);
+  const vids = await listaPublicada(canalId);
+  ultimaListaPublicada = true;
+  return vids;
 }
 async function buscarCanalAoVivo(canalId) {
   const r = await fetch('api/canal?id=' + encodeURIComponent(canalId), { cache: 'no-store' });
@@ -360,7 +370,7 @@ async function carregarCanal(item) {
       vids = await buscarCanal(item.canalId);
       cacheCanal.set(item.canalId, vids);
       guardarLista(item.canalId, vids);
-      if (!modoLocal && canaisPublicados && canaisPublicados.atualizadoEm) {
+      if (ultimaListaPublicada && canaisPublicados && canaisPublicados.atualizadoEm) {
         aviso = `<p class="vazio">Lista de vídeos de ${esc(dataBR(canaisPublicados.atualizadoEm))}.</p>`;
       }
     } catch (e) {
@@ -422,8 +432,18 @@ function tocar(item, video) {
 
   if (pl.tipo === 'youtube') {
     const p = new URLSearchParams({ autoplay: '1', rel: '0', iv_load_policy: '3', playsinline: '1', enablejsapi: '1', hl: 'pt-BR', origin: location.origin });
-    // Legenda em português ligada desde o início (o YouTube pede o código de 2 letras).
-    if (leg) { p.set('cc_load_policy', '1'); p.set('cc_lang_pref', 'pt'); }
+    // A tradução pode estar marcada no episódio ou no título inteiro (vale para todos os episódios).
+    const traduzir = video.legendaTraduzida || item.legendaTraduzida || '';
+    tocando.traduzir = traduzir;
+    tocando.traducoes = 0;
+    if (traduzir) {
+      // Começa pela legenda do idioma original (sem isso o player pode escolher outra, como a árabe)
+      // e, quando o vídeo toca, pede a tradução para português.
+      p.set('cc_load_policy', '1'); p.set('cc_lang_pref', traduzir);
+    } else if (leg) {
+      // Legenda em português ligada desde o início (o YouTube pede o código de 2 letras).
+      p.set('cc_load_policy', '1'); p.set('cc_lang_pref', 'pt');
+    }
     if (inicio) p.set('start', String(inicio));
     area.innerHTML = `<iframe id="quadro" src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(pl.id || '')}?${p}" title="${esc(video.titulo)}" ${trava}></iframe>`;
     ligarYouTube($('#quadro'));
@@ -556,6 +576,7 @@ function trocarVideo(novoId, titulo, autor) {
   guardarProgresso();
   if (tocando.verificando) { clearTimeout(tocando.verificando); tocando.verificando = 0; }
   tocando.vid = novoId; tocando.t = 0; tocando.d = 0; tocando.fim = false; tocando.bloqueado = false;
+  tocando.traduzir = '';
   if (titulo) { tocando.titulo = titulo; const el = $('#player-titulo'); if (el) el.textContent = titulo; }
   esconderFim();
   if (tocando.tipo === 'youtube') decidir(autor);
@@ -627,7 +648,18 @@ function estadoYouTube(s) {
   if (tocando.bloqueado) { if (s === 1) bloquear(); return; }
   if (tocando.verificando) return;
   if (s === 0) fimDoVideo();
-  else if (s === 1) esconderFim();
+  else if (s === 1) { esconderFim(); traduzirLegenda(); }
+}
+// Pede ao player a legenda traduzida para português. Repete nas 3 primeiras vezes que o vídeo começa a tocar,
+// porque um anúncio antes do vídeo pode atrasar a legenda; depois disso, quem desligar a legenda é respeitado.
+function traduzirLegenda() {
+  if (!tocando || !tocando.traduzir || tocando.traducoes >= 3) return;
+  tocando.traducoes++;
+  const q = $('#quadro');
+  const pedido = { event: 'command', func: 'setOption', id: 'microflix', channel: 'widget',
+    args: ['captions', 'track', { languageCode: tocando.traduzir, translationLanguage: { languageCode: 'pt', languageName: 'Português' } }] };
+  const enviar = () => { try { q.contentWindow.postMessage(JSON.stringify(pedido), '*'); } catch (e) { /* quadro fechado */ } };
+  if (q) { enviar(); setTimeout(enviar, 1500); }
 }
 
 /* ---------- cliques e teclas ---------- */

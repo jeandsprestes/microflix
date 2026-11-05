@@ -459,8 +459,8 @@
    "player": {
     "tipo": "canal-youtube"
    },
-   "capa": "https://i.ytimg.com/vi/7ivkWyQHXsA/mqdefault.jpg",
-   "canalAutor": "TV Valongo"
+   "canalAutor": "TV Valongo",
+   "capa": "https://i.ytimg.com/vi/7ivkWyQHXsA/mqdefault.jpg"
   },
   {
    "id": "viagem-a-lua",
@@ -821,8 +821,8 @@
    "player": {
     "tipo": "canal-youtube"
    },
-   "capa": "https://i.ytimg.com/vi/PXuV_YCt8g4/mqdefault.jpg",
-   "canalAutor": "Primitive Technology"
+   "canalAutor": "Primitive Technology",
+   "capa": "https://i.ytimg.com/vi/PXuV_YCt8g4/mqdefault.jpg"
   },
   {
    "id": "canal-minuto-da-terra",
@@ -845,8 +845,8 @@
    "player": {
     "tipo": "canal-youtube"
    },
-   "capa": "https://i.ytimg.com/vi/h04S3FnVvGs/mqdefault.jpg",
-   "canalAutor": "Minuto da Terra"
+   "canalAutor": "Minuto da Terra",
+   "capa": "https://i.ytimg.com/vi/h04S3FnVvGs/mqdefault.jpg"
   },
   {
    "id": "bastidores-do-minecraft",
@@ -921,18 +921,18 @@
   },
   {
    "id": "historia-do-rocket-league",
-   "titulo": "A história de Rocket League, parte 1",
-   "tituloOriginal": "The Making of Rocket League - Documentary (Part 1)",
-   "tipo": "documentario",
+   "titulo": "A história de Rocket League",
+   "tituloOriginal": "The Making of Rocket League - Documentary",
+   "tipo": "serie",
    "fileira": "Minecraft e Rocket League",
    "eixo": "educativo",
    "idioma": "en",
    "legendaPT": "pt-BR",
    "ano": 2016,
-   "duracaoMin": 22.2,
+   "duracaoMin": 46.6,
    "classificacao": "10",
    "motivoClassificacao": "10: aparecem por poucos segundos cenas de jogos de tiro antigos (Unreal Tournament), com armas e sangue em gráfico simples; o resto são entrevistas e Rocket League. Sem classificação oficial; é sugestão do Microflix.",
-   "descricao": "Primeira parte do documentário que o estúdio Noclip lançou em outubro de 2016 sobre a criação de Rocket League, apresentado pelo jornalista Danny O'Dwyer. Mostra como um modo de jogo de Unreal Tournament 2004 evoluiu até virar o futebol de carros que o jogo é hoje.",
+   "descricao": "Documentário em duas partes que o estúdio Noclip lançou em 31 de outubro e 1º de novembro de 2016, apresentado pelo jornalista Danny O'Dwyer. A primeira mostra como um modo de jogo de Unreal Tournament 2004 virou o futebol de carros da Psyonix. A segunda conta a escolha de lançar o jogo na PlayStation Plus, os problemas nos servidores no lançamento, em 2015, e o que o sucesso mudou no estúdio.",
    "porQueAssistir": "Mostra quantos anos e quantas versões a Psyonix precisou até chegar ao Rocket League de hoje.",
    "canal": "/noclip",
    "canalId": "UC0fDG3byEcMtbOqPMymDNbw",
@@ -942,7 +942,21 @@
    "player": {
     "tipo": "youtube",
     "id": "Om0j9SLBDPQ"
-   }
+   },
+   "ressalva": "Na parte 2, a legenda em português é traduzida automaticamente pelo YouTube e pode ter erros.",
+   "episodios": [
+    {
+     "titulo": "Parte 1: como construir um foguete",
+     "youtubeId": "Om0j9SLBDPQ",
+     "duracaoMin": 22.2
+    },
+    {
+     "titulo": "Parte 2: como lançar um foguete",
+     "youtubeId": "Bb_NBiJ0ilk",
+     "duracaoMin": 24.4,
+     "legendaTraduzida": "en"
+    }
+   ]
   },
   {
    "id": "singularity",
@@ -2002,8 +2016,187 @@
    "player": {
     "tipo": "canal-youtube"
    },
-   "capa": "https://i.ytimg.com/vi/KRa5DSmsstI/mqdefault.jpg",
-   "canalAutor": "MANYACRAFT"
+   "canalAutor": "MANYACRAFT",
+   "capa": "https://i.ytimg.com/vi/KRa5DSmsstI/mqdefault.jpg"
+  },
+  {
+   "id": "15-anos-de-minecraft",
+   "titulo": "15 anos de Minecraft",
+   "tituloOriginal": "15 Years of Minecraft",
+   "tipo": "serie",
+   "fileira": "Minecraft e Rocket League",
+   "eixo": "educativo",
+   "idioma": "en",
+   "legendaTraduzida": "en",
+   "ano": 2024,
+   "duracaoMin": 52.1,
+   "classificacao": "L",
+   "motivoClassificacao": "L: conversas com a equipe da Mojang e imagens do jogo, sem violência. Sem classificação oficial; é sugestão do Microflix.",
+   "descricao": "Série em quatro partes que o canal oficial do Minecraft publicou de 3 a 7 de junho de 2024, nos 15 anos do jogo. Desenvolvedores antigos e atuais da Mojang lembram as primeiras grandes atualizações e as primeiras Minecons, os encontros oficiais com os fãs. A terceira parte mostra a pesquisa com animais de verdade para criar as criaturas, e a quarta traz palpites sobre os próximos 15 anos.",
+   "porQueAssistir": "A equipe que faz o jogo conta como o Minecraft mudou desde a primeira versão, de maio de 2009.",
+   "canal": "Minecraft (Mojang Studios)",
+   "canalId": "UC1sELGmy5jp5fQUugmuYlXQ",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial da Mojang Studios no canal Minecraft",
+   "urlPagina": "https://www.youtube.com/watch?v=PIAP8peEppI",
+   "player": {
+    "tipo": "youtube",
+    "id": "PIAP8peEppI"
+   },
+   "episodios": [
+    {
+     "titulo": "O começo, parte 1",
+     "youtubeId": "PIAP8peEppI",
+     "duracaoMin": 14.4
+    },
+    {
+     "titulo": "O começo, parte 2",
+     "youtubeId": "19ya8NUqNQo",
+     "duracaoMin": 10.6
+    },
+    {
+     "titulo": "Crescimento e evolução, parte 3",
+     "youtubeId": "f0k7JNFGhms",
+     "duracaoMin": 13.4
+    },
+    {
+     "titulo": "Abrindo novos caminhos, parte 4",
+     "youtubeId": "4MHVZBLO_ko",
+     "duracaoMin": 13.7
+    }
+   ],
+   "ressalva": "A legenda em português é traduzida automaticamente pelo YouTube e pode ter erros."
+  },
+  {
+   "id": "bastidores-do-minecraft-parte-2",
+   "titulo": "Bastidores do Minecraft, parte 2",
+   "tituloOriginal": "The Story Of (Illagers, Iron Golem, Strider, Piglins, Wolves, Elder Guardian)",
+   "tipo": "serie",
+   "fileira": "Minecraft e Rocket League",
+   "eixo": "educativo",
+   "idioma": "en",
+   "legendaTraduzida": "en",
+   "ano": 2024,
+   "duracaoMin": 40.5,
+   "classificacao": "10",
+   "motivoClassificacao": "10: tem criaturas hostis do jogo, como os Illagers e o Guardião-mestre, em gráfico de blocos, e um episódio que promete mostrar o que há dentro do Guardião-mestre. Sem classificação oficial; é sugestão do Microflix.",
+   "descricao": "Mais seis episódios da série The Story Of, publicados no canal oficial do Minecraft entre outubro de 2024 e agosto de 2025. Em cada um, desenvolvedores da Mojang, como Jens Bergensten e Agnes Larsson, contam como surgiu uma criatura: os Illagers, o Golem de Ferro, o Strider, os Piglins, os lobos e o Guardião-mestre. Os episódios partem de perguntas como por que o Strider solta linha e por que os lobos fogem das lhamas.",
+   "porQueAssistir": "Responde dúvidas sobre criaturas do jogo com a explicação de quem trabalhou nelas.",
+   "canal": "Minecraft (Mojang Studios)",
+   "canalId": "UC1sELGmy5jp5fQUugmuYlXQ",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial da Mojang Studios no canal Minecraft",
+   "urlPagina": "https://www.youtube.com/watch?v=BkbE7jf--2s",
+   "player": {
+    "tipo": "youtube",
+    "id": "BkbE7jf--2s"
+   },
+   "episodios": [
+    {
+     "titulo": "Referências escondidas nos aldeões... doentes? A história dos Illagers",
+     "youtubeId": "BkbE7jf--2s",
+     "duracaoMin": 7.0
+    },
+    {
+     "titulo": "O guardião de ferro que (não?) merecemos: a história do Golem de Ferro",
+     "youtubeId": "gTpKcXUHpUE",
+     "duracaoMin": 6.7
+    },
+    {
+     "titulo": "Por que o Strider solta linha? A história do Strider",
+     "youtubeId": "w-VbYe7M7oU",
+     "duracaoMin": 6.6
+    },
+    {
+     "titulo": "Batalha, ouro e... dança? A história dos Piglins",
+     "youtubeId": "Vwik8XPyb5g",
+     "duracaoMin": 6.7
+    },
+    {
+     "titulo": "O melhor amigo de quem joga Minecraft: a história dos lobos",
+     "youtubeId": "BpypfdJTe34",
+     "duracaoMin": 6.7
+    },
+    {
+     "titulo": "Por que os olhos são tão grandes? A história do Guardião-mestre",
+     "youtubeId": "gs-rMm5luB8",
+     "duracaoMin": 6.8
+    }
+   ],
+   "ressalva": "A legenda em português é traduzida automaticamente pelo YouTube e pode ter erros."
+  },
+  {
+   "id": "diarios-de-desenvolvimento-do-minecraft",
+   "titulo": "Diários de desenvolvimento do Minecraft",
+   "tituloOriginal": "Dev Diaries (Nether Update, Nether Sound, World Generation, Caves & Cliffs Mobs)",
+   "tipo": "serie",
+   "fileira": "Minecraft e Rocket League",
+   "eixo": "educativo",
+   "idioma": "en",
+   "legendaTraduzida": "en",
+   "ano": 2020,
+   "duracaoMin": 34.4,
+   "classificacao": "10",
+   "motivoClassificacao": "10: o Nether é apresentado como um lugar assustador, e o episódio do som mostra como deixar o lugar sombrio, tudo em gráfico de blocos. Sem classificação oficial; é sugestão do Microflix.",
+   "descricao": "Quatro episódios da série Dev Diaries, publicados no canal oficial do Minecraft entre maio de 2020 e maio de 2021, sobre duas atualizações, a do Nether e a Caves & Cliffs. Os dois primeiros mostram como foram pensados os Piglins, os Hoglins e os Striders e como cada bioma do Nether ganhou som próprio. No de geração de mundo, Agnes Larsson e Henrik Kniberg explicam as cavernas que a equipe apelidou de espaguete e de queijo. No último, três desenvolvedores contam o trabalho por trás do pulo da cabra.",
+   "porQueAssistir": "A própria equipe explica por que as cavernas e o Nether ficaram do jeito que estão no jogo.",
+   "canal": "Minecraft (Mojang Studios)",
+   "canalId": "UC1sELGmy5jp5fQUugmuYlXQ",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial da Mojang Studios no canal Minecraft",
+   "urlPagina": "https://www.youtube.com/watch?v=CnKeTCDpGvY",
+   "player": {
+    "tipo": "youtube",
+    "id": "CnKeTCDpGvY"
+   },
+   "episodios": [
+    {
+     "titulo": "Diário 1: a atualização do Nether",
+     "youtubeId": "CnKeTCDpGvY",
+     "duracaoMin": 5.8
+    },
+    {
+     "titulo": "Diário 2: o som do Nether",
+     "youtubeId": "BPJOs8nFMv0",
+     "duracaoMin": 6.5
+    },
+    {
+     "titulo": "Geração de mundo",
+     "youtubeId": "yAEw1lJrsL4",
+     "duracaoMin": 11.9
+    },
+    {
+     "titulo": "As criaturas da Caves & Cliffs",
+     "youtubeId": "wSsDBpDQKaE",
+     "duracaoMin": 10.2
+    }
+   ],
+   "ressalva": "A legenda em português é traduzida automaticamente pelo YouTube e pode ter erros."
+  },
+  {
+   "id": "a-fisica-do-rocket-league",
+   "titulo": "A física do Rocket League",
+   "tituloOriginal": "It IS Rocket Science! The Physics of Rocket League Detailed",
+   "tipo": "video",
+   "fileira": "Minecraft e Rocket League",
+   "eixo": "educativo",
+   "idioma": "pt-auto",
+   "ano": 2018,
+   "duracaoMin": 62.0,
+   "classificacao": "L",
+   "motivoClassificacao": "L: palestra com slides e cenas do jogo, sem violência. Sem classificação oficial; é sugestão do Microflix.",
+   "descricao": "Palestra de 62 minutos de Jared Cone, programador da Psyonix, na GDC de 2018, o encontro anual de quem faz jogos. Com slides e cenas do jogo, ele mostra as decisões e os detalhes de programação por trás da física do Rocket League e de como ela funciona pela internet.",
+   "porQueAssistir": "Explica, com cenas do próprio jogo, por que o carro e a bola se mexem do jeito que se mexem.",
+   "ressalva": "A voz em português é gerada automaticamente pelo YouTube. Depois dos primeiros 20 minutos, o assunto fica técnico.",
+   "canal": "GDC Festival of Gaming",
+   "canalId": "UC0JB7TSe49lg56u6qH8y_MQ",
+   "plataforma": "YouTube",
+   "licenca": "Upload oficial da GDC (Game Developers Conference), organizadora da palestra",
+   "urlPagina": "https://www.youtube.com/watch?v=ueEmiDM94IE",
+   "player": {
+    "tipo": "youtube",
+    "id": "ueEmiDM94IE"
+   }
   }
  ]
 }

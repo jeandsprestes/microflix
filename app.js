@@ -633,7 +633,14 @@ window.addEventListener('message', ev => {
       if (vd && vd.video_id && vd.video_id !== tocando.vid) trocarVideo(vd.video_id, vd.title, vd.author);
       else if (vd && vd.author && tocando.verificando) decidir(vd.author);
       if (typeof i.muted === 'boolean' && !tocando.verificando) tocando.mudo = i.muted;
-      if (typeof i.currentTime === 'number') tocando.t = i.currentTime;
+      if (typeof i.currentTime === 'number') {
+        if (tocando.traduzir) {
+          // O tempo voltou para trás: acabou um anúncio e começou o vídeo (ou ele voltou o vídeo). Pede a tradução de novo.
+          if (i.currentTime + 1 < tocando.t) tocando.legendaPedida = false;
+          if (i.currentTime >= 1 && !tocando.legendaPedida) { tocando.legendaPedida = true; traduzirLegenda(); }
+        }
+        tocando.t = i.currentTime;
+      }
       if (typeof i.duration === 'number' && i.duration > 0) tocando.d = i.duration;
       if (typeof i.playerState === 'number') estadoYouTube(i.playerState);
     }
@@ -650,10 +657,10 @@ function estadoYouTube(s) {
   if (s === 0) fimDoVideo();
   else if (s === 1) { esconderFim(); traduzirLegenda(); }
 }
-// Pede ao player a legenda traduzida para português. Repete nas 3 primeiras vezes que o vídeo começa a tocar,
-// porque um anúncio antes do vídeo pode atrasar a legenda; depois disso, quem desligar a legenda é respeitado.
+// Pede ao player a legenda traduzida para português: quando o vídeo começa a tocar e quando ele recomeça depois
+// de um anúncio. Para depois de 6 pedidos, para respeitar quem desligar a legenda.
 function traduzirLegenda() {
-  if (!tocando || !tocando.traduzir || tocando.traducoes >= 3) return;
+  if (!tocando || !tocando.traduzir || tocando.traducoes >= 6) return;
   tocando.traducoes++;
   const q = $('#quadro');
   const pedido = { event: 'command', func: 'setOption', id: 'microflix', channel: 'widget',

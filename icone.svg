@@ -1,1 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#0b0f19"/><circle cx="32" cy="32" r="21" fill="none" stroke="#ffb02e" stroke-width="4"/><path d="M27 21 L45 32 L27 43 Z" fill="#ffb02e"/><circle cx="50" cy="14" r="3" fill="#59c3ff"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- MICROFLIX, conta do Gab. Arquétipo comum: o portal (anel) com o play no centro.
+       Detalhes dele: o espaço profundo, um planeta com anel e um bloco de grama em pixel. -->
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14204a"/>
+      <stop offset="1" stop-color="#050816"/>
+    </linearGradient>
+    <radialGradient id="portal" cx="0.42" cy="0.38" r="0.7">
+      <stop offset="0" stop-color="#3550a8"/>
+      <stop offset="0.6" stop-color="#16225a"/>
+      <stop offset="1" stop-color="#0a1030"/>
+    </radialGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#fundo)"/>
+  <g fill="#d8ecff">
+    <circle cx="34" cy="40" r="3"/><circle cx="62" cy="24" r="1.8"/><circle cx="222" cy="214" r="2.4"/>
+    <circle cx="232" cy="120" r="1.6"/><circle cx="24" cy="118" r="1.6"/><circle cx="150" cy="236" r="1.8"/>
+  </g>
+  <!-- o portal -->
+  <circle cx="128" cy="132" r="78" fill="url(#portal)"/>
+  <g fill="#ffffff" opacity="0.7">
+    <circle cx="96" cy="100" r="1.6"/><circle cx="160" cy="176" r="1.4"/><circle cx="104" cy="178" r="1.2"/>
+  </g>
+  <circle cx="128" cy="132" r="78" fill="none" stroke="#ffb02e" stroke-width="13"/>
+  <!-- o play -->
+  <path d="M112 98 L168 132 L112 166 Z" fill="#ffb02e" stroke="#ffb02e" stroke-width="12" stroke-linejoin="round"/>
+  <!-- o planeta com anel, saindo do portal -->
+  <g transform="translate(196 62) rotate(-22)">
+    <path d="M-32 0 A32 9 0 0 1 32 0" fill="none" stroke="#bfe3ff" stroke-width="5" stroke-linecap="round"/>
+    <circle r="18" fill="#59c3ff"/>
+    <path d="M-14 -6 A18 18 0 0 1 6 -16" fill="none" stroke="#a8ddff" stroke-width="4" stroke-linecap="round"/>
+    <path d="M32 0 A32 9 0 0 1 -32 0" fill="none" stroke="#bfe3ff" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <!-- o bloco de grama em pixel -->
+  <g transform="translate(28 176)">
+    <rect width="44" height="44" rx="3" fill="#8a5a2b"/>
+    <rect width="44" height="15" rx="3" fill="#5fbf3a"/>
+    <rect x="0" y="12" width="44" height="3" fill="#5fbf3a"/>
+    <rect x="6" y="15" width="7" height="6" fill="#5fbf3a"/>
+    <rect x="25" y="15" width="7" height="8" fill="#5fbf3a"/>
+    <rect x="34" y="15" width="5" height="4" fill="#5fbf3a"/>
+    <rect x="12" y="27" width="6" height="6" fill="#6e4520"/>
+    <rect x="28" y="33" width="7" height="6" fill="#a56d36"/>
+    <rect x="4" y="36" width="5" height="5" fill="#6e4520"/>
+    <rect x="34" y="24" width="5" height="5" fill="#a56d36"/>
+  </g>
+</svg>

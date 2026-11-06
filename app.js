@@ -26,6 +26,7 @@ function chave(pl) {
   if (!pl) return '';
   if (pl.tipo === 'youtube') return 'yt:' + pl.id;
   if (pl.tipo === 'vimeo') return 'vm:' + pl.id;
+  if (pl.tipo === 'link') return 'url:' + pl.url;
   if (pl.tipo === 'mp4') return 'mp4:' + pl.src;
   return '';
 }
@@ -42,13 +43,13 @@ function fracao(k) { const p = mem.progresso[k]; return p && p.d ? Math.min(1, p
 function videos(item) {
   if (item.episodios && item.episodios.length) {
     return item.episodios.map((ep, i) => ({
-      titulo: ep.titulo, n: i + 1, duracaoMin: ep.duracaoMin, legendaTraduzida: ep.legendaTraduzida || '',
+      titulo: ep.titulo, n: i + 1, duracaoMin: ep.duracaoMin, legendaTraduzida: ep.legendaTraduzida || '', legendaPT: ep.legendaPT || '',
       player: ep.youtubeId ? { tipo: 'youtube', id: ep.youtubeId }
         : ep.vimeoId ? { tipo: 'vimeo', id: ep.vimeoId }
           : { tipo: 'mp4', src: ep.src, legendaVtt: ep.legendaVtt },
     }));
   }
-  if (item.player && ['youtube', 'vimeo', 'mp4'].includes(item.player.tipo)) {
+  if (item.player && ['youtube', 'vimeo', 'mp4', 'link'].includes(item.player.tipo)) {
     return [{ titulo: item.titulo, n: 1, duracaoMin: item.duracaoMin, player: item.player }];
   }
   return [];
@@ -85,13 +86,15 @@ function duracao(min) {
 }
 function dataBR(iso) { const [a, m, d] = String(iso || '').split('-'); return a && m && d ? `${d}/${m}/${a}` : ''; }
 // pt-auto: vídeo em inglês em que o YouTube toca uma voz em português gerada automaticamente.
-const IDIOMA = { pt: 'Português', 'pt-auto': 'Português, com voz gerada automaticamente', 'sem-fala': 'Sem falas', outro: 'Outro idioma' };
-const IDIOMA_CURTO = { pt: 'PT', 'pt-auto': 'PT', 'sem-fala': 'SEM FALAS' };
+// pt-leg: legendado em português na própria plataforma (Pluto TV, Plex e afins).
+const IDIOMA = { pt: 'Português', 'pt-auto': 'Português, com voz gerada automaticamente', 'pt-leg': 'Legendado em português', 'sem-fala': 'Sem falas', outro: 'Outro idioma' };
+const IDIOMA_CURTO = { pt: 'PT', 'pt-auto': 'PT', 'pt-leg': 'LEG', 'sem-fala': 'SEM FALAS' };
 // Legenda traduzida: o vídeo não tem legenda em português feita por pessoa, e o player do YouTube traduz a legenda
 // em inglês (feita por pessoa) para português.
 const temTraducao = item => !!(item.legendaTraduzida || (item.episodios || []).some(ep => ep.legendaTraduzida));
 const temLegenda = item => !!(item.legendaPT || (item.player && item.player.legendaVtt) || temTraducao(item));
 function idiomaLongo(item) {
+  if (item.idioma === 'outro' && temTraducao(item)) return 'Outro idioma, com legenda traduzida automaticamente';
   if (item.idioma !== 'en') return IDIOMA[item.idioma] || '';
   if (!temLegenda(item)) return 'Inglês';
   if (item.tipo === 'canal') return 'Inglês, com legenda em português nos vídeos que têm';
@@ -174,6 +177,7 @@ function escolherDestaque(arr) {
 function rotuloPlay(item) {
   const v = proximo(item);
   if (!v) return '▶ Assistir';
+  if (v.player.tipo === 'link') return `↗ Abrir ${v.player.plataforma ? 'no ' + v.player.plataforma : 'o site'}`;
   const k = chave(v.player);
   const serie = item.episodios && item.episodios.length > 1;
   if (fracao(k) > 0.02 && !foiAssistido(k)) return serie ? `▶ Continuar episódio ${v.n}` : '▶ Continuar';
@@ -411,12 +415,15 @@ const kAtual = () => !tocando ? '' : tocando.tipo === 'youtube' && tocando.vid ?
 
 function tocar(item, video) {
   if (!item || !video) return;
+  // Plataforma que não deixa tocar dentro de outro site (Pluto TV, Plex, X): abre numa aba do navegador.
+  if (video.player && video.player.tipo === 'link') { window.open(video.player.url, '_blank', 'noopener'); return; }
   pararPlayer();
   const pl = video.player;
   const k = chave(pl);
   const prog = mem.progresso[k];
   const inicio = prog && prog.d && prog.t / prog.d < 0.92 && prog.t > 20 && !foiAssistido(k) ? Math.floor(prog.t - 5) : 0;
-  const leg = item.legendaPT || '';
+  // o código exato da faixa em português deste vídeo (o episódio pode ter "pt" e a série "pt-BR")
+  const leg = (item.legendaPT && (video.legendaPT || item.legendaPT)) || '';
   const box = $('#player');
   box.innerHTML = `<div class="player-topo">
       <button type="button" class="btn-voltar" data-fechar-player>← Voltar</button>
@@ -436,10 +443,13 @@ function tocar(item, video) {
     const traduzir = video.legendaTraduzida || item.legendaTraduzida || '';
     tocando.traduzir = traduzir;
     tocando.traducoes = 0;
+    // A faixa que o player deve mostrar: a tradução para português ou a legenda em português feita por pessoa.
+    tocando.legenda = traduzir ? { languageCode: traduzir, translationLanguage: { languageCode: 'pt', languageName: 'Português' } }
+      : leg ? { languageCode: leg } : null;
     if (traduzir) {
       // Começa pela legenda do idioma original (sem isso o player pode escolher outra, como a árabe)
       // e, quando o vídeo toca, pede a tradução para português.
-      p.set('cc_load_policy', '1'); p.set('cc_lang_pref', traduzir);
+      p.set('cc_load_policy', '1'); p.set('cc_lang_pref', traduzir.split('-')[0]);   // o parâmetro pede 2 letras; a tradução usa o código exato da faixa
     } else if (leg) {
       // Legenda em português ligada desde o início (o YouTube pede o código de 2 letras).
       p.set('cc_load_policy', '1'); p.set('cc_lang_pref', 'pt');
@@ -514,6 +524,7 @@ function fimDoVideo() {
 // Devolve true, false, ou null quando o player ainda não disse de que canal o vídeo é.
 const nomeCanal = s => semAcento(s).replace(/\s+/g, ' ').trim();
 function permitido(item, vid, autor) {
+  if (CAT.semTrava) return true; // catálogo de adulto: sugestões do YouTube tocam normalmente
   if (!item) return false;
   if (videos(item).some(v => v.player.tipo === 'youtube' && v.player.id === vid)) return true;
   if (videoDeCanalAprovado(vid)) return true;
@@ -577,6 +588,7 @@ function trocarVideo(novoId, titulo, autor) {
   if (tocando.verificando) { clearTimeout(tocando.verificando); tocando.verificando = 0; }
   tocando.vid = novoId; tocando.t = 0; tocando.d = 0; tocando.fim = false; tocando.bloqueado = false;
   tocando.traduzir = '';
+  tocando.legenda = null;
   if (titulo) { tocando.titulo = titulo; const el = $('#player-titulo'); if (el) el.textContent = titulo; }
   esconderFim();
   if (tocando.tipo === 'youtube') decidir(autor);
@@ -634,10 +646,10 @@ window.addEventListener('message', ev => {
       else if (vd && vd.author && tocando.verificando) decidir(vd.author);
       if (typeof i.muted === 'boolean' && !tocando.verificando) tocando.mudo = i.muted;
       if (typeof i.currentTime === 'number') {
-        if (tocando.traduzir) {
-          // O tempo voltou para trás: acabou um anúncio e começou o vídeo (ou ele voltou o vídeo). Pede a tradução de novo.
+        if (tocando.legenda) {
+          // O tempo voltou para trás: acabou um anúncio e começou o vídeo (ou ele voltou o vídeo). Pede a legenda de novo.
           if (i.currentTime + 1 < tocando.t) tocando.legendaPedida = false;
-          if (i.currentTime >= 1 && !tocando.legendaPedida) { tocando.legendaPedida = true; traduzirLegenda(); }
+          if (i.currentTime >= 1 && !tocando.legendaPedida) { tocando.legendaPedida = true; ligarLegenda(); }
         }
         tocando.t = i.currentTime;
       }
@@ -655,17 +667,22 @@ function estadoYouTube(s) {
   if (tocando.bloqueado) { if (s === 1) bloquear(); return; }
   if (tocando.verificando) return;
   if (s === 0) fimDoVideo();
-  else if (s === 1) { esconderFim(); traduzirLegenda(); }
+  else if (s === 1) { esconderFim(); ligarLegenda(); }
 }
-// Pede ao player a legenda traduzida para português: quando o vídeo começa a tocar e quando ele recomeça depois
-// de um anúncio. Para depois de 6 pedidos, para respeitar quem desligar a legenda.
-function traduzirLegenda() {
-  if (!tocando || !tocando.traduzir || tocando.traducoes >= 6) return;
+// Liga a legenda em português (a feita por pessoa ou a traduzida): quando o vídeo começa a tocar e quando ele
+// recomeça depois de um anúncio. O parâmetro do endereço às vezes é ignorado pelo YouTube (a legenda sumia).
+// Para depois de 6 pedidos, para respeitar quem desligar a legenda.
+function ligarLegenda() {
+  if (!tocando || !tocando.legenda || tocando.traducoes >= 6) return;
   tocando.traducoes++;
   const q = $('#quadro');
-  const pedido = { event: 'command', func: 'setOption', id: 'microflix', channel: 'widget',
-    args: ['captions', 'track', { languageCode: tocando.traduzir, translationLanguage: { languageCode: 'pt', languageName: 'Português' } }] };
-  const enviar = () => { try { q.contentWindow.postMessage(JSON.stringify(pedido), '*'); } catch (e) { /* quadro fechado */ } };
+  const msg = (func, args) => JSON.stringify({ event: 'command', func, args, id: 'microflix', channel: 'widget' });
+  const enviar = () => {
+    try {
+      q.contentWindow.postMessage(msg('loadModule', ['captions']), '*');
+      q.contentWindow.postMessage(msg('setOption', ['captions', 'track', tocando.legenda]), '*');
+    } catch (e) { /* quadro fechado */ }
+  };
   if (q) { enviar(); setTimeout(enviar, 1500); }
 }
 
@@ -768,6 +785,20 @@ async function iniciar() {
   }
   CAT.itens = (CAT.itens || []).filter(i => i && i.id && i.titulo);
   CAT.fileiras = CAT.fileiras || [];
+  // Fileira do dia, gerada fora do catálogo (o noticias.json, feito pelo INFO). Sem o arquivo, segue sem ela.
+  if (CAT.noticias) {
+    try {
+      const r = await fetch(CAT.noticias, { cache: 'no-store' });
+      if (r.ok) {
+        const n = await r.json();
+        const nome = n.fileira || 'Notícias';
+        // cada cartão pode trazer a própria fileira (ex.: "Vídeos da lista do X"); sem ela, vai para a fileira do arquivo
+        const novos = (n.itens || []).filter(i => i && i.id && i.titulo).map(i => Object.assign({}, i, { fileira: i.fileira || nome }));
+        const nomes = [...new Set(novos.map(i => i.fileira))];
+        if (novos.length) { CAT.itens = novos.concat(CAT.itens); CAT.fileiras = nomes.concat(CAT.fileiras.filter(f => !nomes.includes(f))); }
+      }
+    } catch (e) { /* sem notícias hoje */ }
+  }
   porId = new Map(CAT.itens.map(i => [i.id, i]));
   mem.lista = mem.lista.filter(id => porId.has(id));
   render();
